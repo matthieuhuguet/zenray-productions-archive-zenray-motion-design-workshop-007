@@ -1,0 +1,9 @@
+{
+  "version": "V_018",
+  "parent": "V_017",
+  "musicBench": "V_025",
+  "created": "12 October 2026, 18:44",
+  "kind": "soundtrack-benchmark",
+  "private": true,
+  "note": "M3: music bench V_025 plus SFX of V_017 (baseline assembly)"
+}

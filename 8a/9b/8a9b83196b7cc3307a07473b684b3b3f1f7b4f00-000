@@ -1,0 +1,1199 @@
+{
+  "date": "12 October 2026, 11:47",
+  "slug": "onekey-pro-2",
+  "span": [
+    0.0,
+    68.05333333333333
+  ],
+  "candidates": 164,
+  "droppedAsMusic": 156,
+  "routedToMusicAsNotes": [
+    {
+      "id": "E002",
+      "t": 22.4,
+      "windowStart": 22.36,
+      "windowEnd": 25.4,
+      "peak": 22.465,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -45.7,
+      "onGrid": false,
+      "repeatExcessDb": 4.66,
+      "backgroundShiftS": 2.72582,
+      "reason": "melodic: several notes",
+      "peakHz": 587.0,
+      "degree": 2,
+      "centsOff": 1.1,
+      "key": "C minor",
+      "distinctNotes": 2,
+      "tonalNeighbours": 2
+    },
+    {
+      "id": "E003",
+      "t": 25.455,
+      "windowStart": 25.415,
+      "windowEnd": 25.52,
+      "peak": 25.52,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -57.2,
+      "onGrid": false,
+      "repeatExcessDb": 5.08,
+      "backgroundShiftS": 5.45165,
+      "reason": "melodic: tonal neighbours in the same phrase",
+      "peakHz": 779.7,
+      "degree": 7,
+      "centsOff": 9.5,
+      "key": "C minor",
+      "distinctNotes": 1,
+      "tonalNeighbours": 2
+    },
+    {
+      "id": "E004",
+      "t": 25.52,
+      "windowStart": 25.48,
+      "windowEnd": 26.02,
+      "detector": "transient",
+      "stem": "other",
+      "gridOffsetMs": 7.8,
+      "onGrid": true,
+      "repeatExcessDb": 6.35,
+      "backgroundShiftS": 5.45165,
+      "reason": "melodic: tonal neighbours in the same phrase",
+      "peakHz": 391.6,
+      "degree": 7,
+      "centsOff": 1.8,
+      "key": "C minor",
+      "distinctNotes": 1,
+      "tonalNeighbours": 2
+    },
+    {
+      "id": "E008",
+      "t": 57.855,
+      "windowStart": 57.815,
+      "windowEnd": 60.855,
+      "peak": 57.92,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -26.4,
+      "onGrid": false,
+      "repeatExcessDb": 4.57,
+      "backgroundShiftS": 5.45165,
+      "reason": "melodic: several notes",
+      "peakHz": 587.1,
+      "degree": 2,
+      "centsOff": 0.7,
+      "key": "C minor",
+      "distinctNotes": 4,
+      "tonalNeighbours": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "E001",
+      "t": 20.7,
+      "windowStart": 20.66,
+      "windowEnd": 21.2,
+      "detector": "transient",
+      "stem": "drums",
+      "gridOffsetMs": -42.0,
+      "onGrid": false,
+      "repeatExcessDb": 3.48,
+      "backgroundShiftS": 5.45165,
+      "kind": "impact",
+      "why": [
+        "lowShare 0.53 >= 0.5"
+      ],
+      "alternatives": [
+        "trigger",
+        "boom"
+      ],
+      "anchorS": 20.66,
+      "refAnchorKind": "onset",
+      "levelDb": -14.42,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -14.42273,
+        "onsetS": 0.0,
+        "peakS": 0.04411,
+        "rawPeakS": 0.01766,
+        "anchorKind": "onset",
+        "attackS": 0.00416,
+        "spanS": 0.539,
+        "peakHz": 98.72827,
+        "prominenceDb": 20.02308,
+        "centroidHz": 915.11174,
+        "spreadHz": 2139.66589,
+        "flatness": 0.07644,
+        "harmonicity": 0.29566,
+        "centroidTraj": [
+          307.0,
+          2334.1,
+          898.9,
+          1332.3,
+          325.6,
+          361.6,
+          3035.3,
+          938.2
+        ],
+        "lowShare": 0.53319,
+        "bandwidthHz": 142.59259,
+        "centroidSlopeOct": 1.61188,
+        "subAttacks": 4,
+        "attackRateHz": 32.96703,
+        "attackCv": 0.22574,
+        "mfccMean": [
+          -168.531,
+          60.383,
+          -31.299,
+          31.181,
+          -8.695,
+          33.499,
+          -2.047,
+          19.869,
+          0.898,
+          12.85,
+          2.657,
+          2.768,
+          4.306
+        ],
+        "mfccStd": [
+          30.86,
+          14.83,
+          13.979,
+          5.376,
+          10.554,
+          5.722,
+          6.96,
+          6.588,
+          6.012,
+          5.01,
+          5.284,
+          5.105,
+          5.454
+        ],
+        "fluxMean": 1.41565,
+        "peakFraction": 0.08183
+      },
+      "fit": {
+        "event": "E001",
+        "kind": "impact",
+        "start": "cma",
+        "objective": 24.82581129994854,
+        "params": {
+          "fStart": 117.52412,
+          "fEnd": 52.76457,
+          "tail": 0.21475,
+          "reverbMix": 0.11275,
+          "clickLevel": 1.0,
+          "noiseLevel": 0.65129,
+          "noiseLp": 424.3595,
+          "gainDb": -12.79064
+        },
+        "offsetS": -0.02916,
+        "evals": 1291,
+        "seconds": 35.6,
+        "score": 57.03,
+        "E": 7.476,
+        "ceiling": 95.82,
+        "errors": {
+          "level": 0.0,
+          "anchor": 0.0,
+          "attack": 0.4103,
+          "duration": -5.2082,
+          "brightness": 2.5752,
+          "spectralShape": 2.0261,
+          "pitch": 4.2256
+        },
+        "spread": {
+          "level": 1.0364,
+          "anchor": 0.5067,
+          "attack": 1.1979,
+          "duration": 1.0381,
+          "brightness": 10.4092,
+          "spectralShape": 1.8013,
+          "pitch": 0.8218
+        },
+        "renderSeed": 108,
+        "renderSingleE": 22.575,
+        "candidates": [
+          {
+            "kind": "impact",
+            "start": "descriptors",
+            "score": 6.54,
+            "ceiling": 94.72,
+            "evals": 1291,
+            "seconds": 51.5
+          },
+          {
+            "kind": "impact",
+            "start": "centre",
+            "score": 32.79,
+            "ceiling": 99.38,
+            "evals": 1291,
+            "seconds": 36.0
+          },
+          {
+            "kind": "impact",
+            "start": "cma",
+            "score": 57.03,
+            "ceiling": 95.82,
+            "evals": 1291,
+            "seconds": 35.6
+          },
+          {
+            "kind": "impact",
+            "start": "cma",
+            "score": 15.63,
+            "ceiling": 99.58,
+            "evals": 1291,
+            "seconds": 130.9
+          },
+          {
+            "kind": "trigger",
+            "start": "descriptors",
+            "score": 0.59,
+            "ceiling": 99.99,
+            "evals": 841,
+            "seconds": 94.9
+          },
+          {
+            "kind": "boom",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.22,
+            "evals": 837,
+            "seconds": 79.3
+          },
+          {
+            "kind": "whoosh",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.62,
+            "evals": 841,
+            "seconds": 105.5
+          },
+          {
+            "kind": "swoosh",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 98.87,
+            "evals": 841,
+            "seconds": 19.7
+          },
+          {
+            "kind": "swipe",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.13,
+            "evals": 842,
+            "seconds": 14.2
+          },
+          {
+            "kind": "riser",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.74,
+            "evals": 841,
+            "seconds": 250.7
+          },
+          {
+            "kind": "downlifter",
+            "start": "descriptors",
+            "score": 13.42,
+            "ceiling": 99.22,
+            "evals": 841,
+            "seconds": 269.1
+          },
+          {
+            "kind": "reverse",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 97.7,
+            "evals": 794,
+            "seconds": 75.5
+          },
+          {
+            "kind": "click",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 98.36,
+            "evals": 765,
+            "seconds": 6.3
+          },
+          {
+            "kind": "tick",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.99,
+            "evals": 610,
+            "seconds": 3.6
+          },
+          {
+            "kind": "pop",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 100.0,
+            "evals": 671,
+            "seconds": 4.9
+          },
+          {
+            "kind": "blip",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 100.0,
+            "evals": 841,
+            "seconds": 14.0
+          },
+          {
+            "kind": "glitch",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 98.88,
+            "evals": 686,
+            "seconds": 21.7
+          },
+          {
+            "kind": "keyboard",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.98,
+            "evals": 841,
+            "seconds": 63.4
+          },
+          {
+            "kind": "subdrop",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 100.0,
+            "evals": 655,
+            "seconds": 37.2
+          },
+          {
+            "kind": "ding",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.99,
+            "evals": 841,
+            "seconds": 73.2
+          },
+          {
+            "kind": "shimmer",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.52,
+            "evals": 841,
+            "seconds": 82.9
+          },
+          {
+            "kind": "impact",
+            "start": "previous",
+            "score": 57.03,
+            "ceiling": 95.82,
+            "evals": 0,
+            "seconds": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "E005",
+      "t": 28.735,
+      "windowStart": 28.695,
+      "windowEnd": 29.235,
+      "detector": "transient",
+      "stem": "drums",
+      "gridOffsetMs": -14.1,
+      "onGrid": true,
+      "repeatExcessDb": 3.36,
+      "backgroundShiftS": -2.72582,
+      "kind": "keyboard",
+      "why": [
+        "7 sub-attacks",
+        "rate 11.7 Hz in keyboard range"
+      ],
+      "alternatives": [
+        "glitch",
+        "tick"
+      ],
+      "anchorS": 28.9121,
+      "refAnchorKind": "peak",
+      "levelDb": -9.13,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -9.1347,
+        "onsetS": 0.0,
+        "peakS": 0.21705,
+        "rawPeakS": 0.3834,
+        "anchorKind": "peak",
+        "attackS": 0.20109,
+        "spanS": 0.539,
+        "peakHz": 184.62727,
+        "prominenceDb": 4.11813,
+        "centroidHz": 1252.46314,
+        "spreadHz": 2186.50786,
+        "flatness": 0.1039,
+        "harmonicity": 0.19219,
+        "centroidTraj": [
+          1050.6,
+          615.4,
+          914.9,
+          1693.6,
+          2014.4,
+          1154.2,
+          2495.1,
+          3947.5
+        ],
+        "lowShare": 0.05607,
+        "bandwidthHz": 170.37037,
+        "centroidSlopeOct": 1.90975,
+        "subAttacks": 7,
+        "attackRateHz": 11.74168,
+        "attackCv": 0.59345,
+        "mfccMean": [
+          -132.791,
+          62.723,
+          -31.606,
+          35.63,
+          -15.646,
+          22.535,
+          -7.28,
+          11.644,
+          -2.269,
+          3.907,
+          -0.52,
+          1.201,
+          2.265
+        ],
+        "mfccStd": [
+          43.556,
+          14.799,
+          11.5,
+          7.639,
+          6.329,
+          7.748,
+          5.505,
+          5.381,
+          5.173,
+          4.295,
+          4.551,
+          3.688,
+          4.02
+        ],
+        "fluxMean": 1.62489,
+        "peakFraction": 0.4027
+      },
+      "fit": {
+        "event": "E005",
+        "kind": "glitch",
+        "start": "descriptors",
+        "objective": 0.0,
+        "params": {
+          "duration": 0.60232,
+          "grains": 14.0,
+          "grainMs": 15.21628,
+          "bits": 4.97474,
+          "hold": 4.22857,
+          "toneHz": 241.60755,
+          "gainDb": -4.38792
+        },
+        "offsetS": -0.04,
+        "evals": 95,
+        "seconds": 2.9,
+        "score": 100.0,
+        "E": 0.0,
+        "ceiling": 98.7,
+        "errors": {
+          "level": -0.0,
+          "anchor": -0.0,
+          "attack": -0.0,
+          "duration": 0.0,
+          "brightness": 0.0,
+          "spectralShape": 0.0,
+          "pitch": 0.0
+        },
+        "spread": {
+          "level": 1.2402,
+          "anchor": 5.5393,
+          "attack": 24.9198,
+          "duration": 1.4297,
+          "brightness": 39.4881,
+          "spectralShape": 3.7545,
+          "pitch": 0.0
+        },
+        "renderSeed": 122,
+        "renderSingleE": 12.532,
+        "candidates": [
+          {
+            "kind": "keyboard",
+            "start": "descriptors",
+            "score": 99.0,
+            "ceiling": 98.95,
+            "evals": 331,
+            "seconds": 12.7
+          },
+          {
+            "kind": "keyboard",
+            "start": "centre",
+            "score": 90.21,
+            "ceiling": 99.9,
+            "evals": 1140,
+            "seconds": 48.3
+          },
+          {
+            "kind": "keyboard",
+            "start": "cma",
+            "score": 98.8,
+            "ceiling": 99.1,
+            "evals": 717,
+            "seconds": 31.7
+          },
+          {
+            "kind": "keyboard",
+            "start": "cma",
+            "score": 98.62,
+            "ceiling": 98.13,
+            "evals": 1090,
+            "seconds": 46.3
+          },
+          {
+            "kind": "glitch",
+            "start": "descriptors",
+            "score": 100.0,
+            "ceiling": 98.7,
+            "evals": 95,
+            "seconds": 2.9
+          },
+          {
+            "kind": "tick",
+            "start": "descriptors",
+            "score": 11.77,
+            "ceiling": 99.89,
+            "evals": 561,
+            "seconds": 4.0
+          },
+          {
+            "kind": "glitch",
+            "start": "previous",
+            "score": 100.0,
+            "ceiling": 98.7,
+            "evals": 0,
+            "seconds": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "E006",
+      "t": 28.825,
+      "windowStart": 28.785,
+      "windowEnd": 29.325,
+      "detector": "transient",
+      "stem": "other",
+      "gridOffsetMs": 75.9,
+      "onGrid": false,
+      "repeatExcessDb": 6.49,
+      "backgroundShiftS": 5.45165,
+      "kind": "impact",
+      "why": [
+        "lowShare 0.73 >= 0.5"
+      ],
+      "alternatives": [
+        "trigger",
+        "boom"
+      ],
+      "anchorS": 29.0157,
+      "refAnchorKind": "peak",
+      "levelDb": -18.54,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -18.53818,
+        "onsetS": 0.0,
+        "peakS": 0.23066,
+        "rawPeakS": 0.25249,
+        "anchorKind": "peak",
+        "attackS": 0.04278,
+        "spanS": 0.539,
+        "peakHz": 88.2419,
+        "prominenceDb": 6.15057,
+        "centroidHz": 236.99372,
+        "spreadHz": 778.23803,
+        "flatness": 0.00648,
+        "harmonicity": 0.25098,
+        "centroidTraj": [
+          456.7,
+          218.6,
+          138.3,
+          145.2,
+          151.0,
+          221.5,
+          310.2,
+          212.0
+        ],
+        "lowShare": 0.73368,
+        "bandwidthHz": 366.66667,
+        "centroidSlopeOct": -1.10693,
+        "subAttacks": 12,
+        "attackRateHz": 23.96514,
+        "attackCv": 0.39644,
+        "mfccMean": [
+          -214.502,
+          92.209,
+          2.518,
+          26.059,
+          0.768,
+          10.033,
+          0.45,
+          1.782,
+          0.361,
+          0.478,
+          1.658,
+          3.312,
+          3.409
+        ],
+        "mfccStd": [
+          21.166,
+          11.364,
+          9.344,
+          7.79,
+          8.432,
+          7.038,
+          5.104,
+          5.28,
+          5.666,
+          5.352,
+          3.682,
+          3.94,
+          4.395
+        ],
+        "fluxMean": 1.42058,
+        "peakFraction": 0.42794
+      },
+      "fit": {
+        "event": "E006",
+        "kind": "glitch",
+        "start": "descriptors",
+        "objective": 0.043026944964342756,
+        "params": {
+          "duration": 0.61568,
+          "grains": 9.0,
+          "grainMs": 20.118,
+          "bits": 3.68482,
+          "hold": 4.7609,
+          "toneHz": 320.90753,
+          "gainDb": -14.27351
+        },
+        "offsetS": -0.03238,
+        "evals": 220,
+        "seconds": 13.2,
+        "score": 97.4,
+        "E": 1.62,
+        "ceiling": 98.55,
+        "errors": {
+          "level": -0.0,
+          "anchor": -0.0,
+          "attack": 1.463,
+          "duration": -0.0,
+          "brightness": 0.0,
+          "spectralShape": 0.6949,
+          "pitch": 0.0
+        },
+        "spread": {
+          "level": 1.3397,
+          "anchor": 5.4257,
+          "attack": 9.6558,
+          "duration": 1.8483,
+          "brightness": 53.9924,
+          "spectralShape": 4.4047,
+          "pitch": 20.0121
+        },
+        "renderSeed": 126,
+        "renderSingleE": 63.487,
+        "candidates": [
+          {
+            "kind": "impact",
+            "start": "descriptors",
+            "score": 90.38,
+            "ceiling": 97.51,
+            "evals": 1291,
+            "seconds": 148.7
+          },
+          {
+            "kind": "impact",
+            "start": "centre",
+            "score": 88.38,
+            "ceiling": 93.69,
+            "evals": 1291,
+            "seconds": 153.0
+          },
+          {
+            "kind": "impact",
+            "start": "cma",
+            "score": 87.18,
+            "ceiling": 94.73,
+            "evals": 1207,
+            "seconds": 129.3
+          },
+          {
+            "kind": "impact",
+            "start": "cma",
+            "score": 86.21,
+            "ceiling": 94.21,
+            "evals": 1174,
+            "seconds": 136.3
+          },
+          {
+            "kind": "trigger",
+            "start": "descriptors",
+            "score": 9.24,
+            "ceiling": 99.28,
+            "evals": 841,
+            "seconds": 75.7
+          },
+          {
+            "kind": "boom",
+            "start": "descriptors",
+            "score": 0.45,
+            "ceiling": 99.8,
+            "evals": 841,
+            "seconds": 78.9
+          },
+          {
+            "kind": "whoosh",
+            "start": "descriptors",
+            "score": 49.78,
+            "ceiling": 98.11,
+            "evals": 841,
+            "seconds": 39.1
+          },
+          {
+            "kind": "swoosh",
+            "start": "descriptors",
+            "score": 19.89,
+            "ceiling": 99.45,
+            "evals": 841,
+            "seconds": 26.9
+          },
+          {
+            "kind": "swipe",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.14,
+            "evals": 806,
+            "seconds": 16.0
+          },
+          {
+            "kind": "riser",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 98.41,
+            "evals": 841,
+            "seconds": 255.4
+          },
+          {
+            "kind": "downlifter",
+            "start": "descriptors",
+            "score": 47.43,
+            "ceiling": 99.94,
+            "evals": 841,
+            "seconds": 262.3
+          },
+          {
+            "kind": "reverse",
+            "start": "descriptors",
+            "score": 1.97,
+            "ceiling": 98.0,
+            "evals": 842,
+            "seconds": 41.2
+          },
+          {
+            "kind": "click",
+            "start": "descriptors",
+            "score": 3.65,
+            "ceiling": 99.51,
+            "evals": 842,
+            "seconds": 8.8
+          },
+          {
+            "kind": "tick",
+            "start": "descriptors",
+            "score": 0.04,
+            "ceiling": 99.89,
+            "evals": 616,
+            "seconds": 4.3
+          },
+          {
+            "kind": "pop",
+            "start": "descriptors",
+            "score": 8.92,
+            "ceiling": 100.0,
+            "evals": 536,
+            "seconds": 4.4
+          },
+          {
+            "kind": "blip",
+            "start": "descriptors",
+            "score": 3.27,
+            "ceiling": 100.0,
+            "evals": 801,
+            "seconds": 27.7
+          },
+          {
+            "kind": "glitch",
+            "start": "descriptors",
+            "score": 97.4,
+            "ceiling": 98.55,
+            "evals": 220,
+            "seconds": 13.2
+          },
+          {
+            "kind": "keyboard",
+            "start": "descriptors",
+            "score": 97.24,
+            "ceiling": 99.15,
+            "evals": 650,
+            "seconds": 51.4
+          },
+          {
+            "kind": "subdrop",
+            "start": "descriptors",
+            "score": 3.72,
+            "ceiling": 100.0,
+            "evals": 607,
+            "seconds": 81.9
+          },
+          {
+            "kind": "ding",
+            "start": "descriptors",
+            "score": 0.93,
+            "ceiling": 100.0,
+            "evals": 756,
+            "seconds": 104.9
+          },
+          {
+            "kind": "shimmer",
+            "start": "descriptors",
+            "score": 3.99,
+            "ceiling": 99.88,
+            "evals": 841,
+            "seconds": 125.4
+          },
+          {
+            "kind": "impact",
+            "start": "previous",
+            "score": 90.38,
+            "ceiling": 97.51,
+            "evals": 0,
+            "seconds": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "E007",
+      "t": 40.52,
+      "windowStart": 40.48,
+      "windowEnd": 41.02,
+      "detector": "transient",
+      "stem": "other",
+      "gridOffsetMs": 15.7,
+      "onGrid": true,
+      "repeatExcessDb": 21.69,
+      "backgroundShiftS": -2.72582,
+      "kind": "ding",
+      "why": [
+        "tonal, fast strike, long decay"
+      ],
+      "alternatives": [
+        "blip",
+        "shimmer"
+      ],
+      "anchorS": 40.48,
+      "refAnchorKind": "onset",
+      "levelDb": -14.53,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -14.52988,
+        "onsetS": 0.0,
+        "peakS": 0.06949,
+        "rawPeakS": 0.04428,
+        "anchorKind": "onset",
+        "attackS": 0.0296,
+        "spanS": 0.54,
+        "peakHz": 784.04121,
+        "prominenceDb": 44.78233,
+        "centroidHz": 1511.44064,
+        "spreadHz": 1496.53496,
+        "flatness": 0.00345,
+        "harmonicity": 0.99384,
+        "centroidTraj": [
+          1756.5,
+          1469.5,
+          1477.9,
+          1152.3,
+          1051.9,
+          1130.0,
+          1398.5,
+          1713.0
+        ],
+        "lowShare": 0.00014,
+        "bandwidthHz": 790.71023,
+        "centroidSlopeOct": -0.03617,
+        "subAttacks": 2,
+        "attackRateHz": 40.0,
+        "attackCv": 1.0,
+        "mfccMean": [
+          -190.313,
+          63.087,
+          -46.95,
+          11.075,
+          -29.247,
+          0.121,
+          -25.224,
+          -11.304,
+          -13.427,
+          1.643,
+          10.653,
+          17.835,
+          15.447
+        ],
+        "mfccStd": [
+          22.012,
+          11.101,
+          11.063,
+          5.967,
+          8.641,
+          8.372,
+          7.385,
+          4.138,
+          5.27,
+          4.998,
+          3.775,
+          5.813,
+          3.988
+        ],
+        "fluxMean": 1.09343,
+        "peakFraction": 0.12868
+      },
+      "fit": {
+        "event": "E007",
+        "kind": "glitch",
+        "start": "descriptors",
+        "objective": 1.6356645318718832,
+        "params": {
+          "duration": 0.51309,
+          "grains": 8.0,
+          "grainMs": 20.18838,
+          "bits": 4.71263,
+          "hold": 4.63318,
+          "toneHz": 764.44078,
+          "gainDb": -9.44911
+        },
+        "offsetS": -0.01136,
+        "evals": 665,
+        "seconds": 46.4,
+        "score": 98.97,
+        "E": 1.016,
+        "ceiling": 98.93,
+        "errors": {
+          "level": 0.0,
+          "anchor": 0.0875,
+          "attack": 0.6351,
+          "duration": -0.0,
+          "brightness": 0.0,
+          "spectralShape": 0.7879,
+          "pitch": 0.0
+        },
+        "spread": {
+          "level": 1.1953,
+          "anchor": 7.4133,
+          "attack": 15.0429,
+          "duration": 3.0139,
+          "brightness": 48.0748,
+          "spectralShape": 5.7304,
+          "pitch": 83.8828
+        },
+        "renderSeed": 131,
+        "renderSingleE": 56.834,
+        "candidates": [
+          {
+            "kind": "ding",
+            "start": "descriptors",
+            "score": 83.17,
+            "ceiling": 99.99,
+            "evals": 1292,
+            "seconds": 94.1
+          },
+          {
+            "kind": "ding",
+            "start": "centre",
+            "score": 77.5,
+            "ceiling": 99.95,
+            "evals": 1230,
+            "seconds": 116.7
+          },
+          {
+            "kind": "ding",
+            "start": "cma",
+            "score": 82.96,
+            "ceiling": 99.99,
+            "evals": 1292,
+            "seconds": 114.6
+          },
+          {
+            "kind": "ding",
+            "start": "cma",
+            "score": 81.97,
+            "ceiling": 99.99,
+            "evals": 1292,
+            "seconds": 113.5
+          },
+          {
+            "kind": "blip",
+            "start": "descriptors",
+            "score": 37.41,
+            "ceiling": 100.0,
+            "evals": 841,
+            "seconds": 22.7
+          },
+          {
+            "kind": "shimmer",
+            "start": "descriptors",
+            "score": 6.78,
+            "ceiling": 98.83,
+            "evals": 841,
+            "seconds": 68.2
+          },
+          {
+            "kind": "whoosh",
+            "start": "descriptors",
+            "score": 1.03,
+            "ceiling": 99.19,
+            "evals": 841,
+            "seconds": 93.6
+          },
+          {
+            "kind": "swoosh",
+            "start": "descriptors",
+            "score": 5.07,
+            "ceiling": 98.95,
+            "evals": 841,
+            "seconds": 85.6
+          },
+          {
+            "kind": "swipe",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.13,
+            "evals": 842,
+            "seconds": 43.8
+          },
+          {
+            "kind": "riser",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.01,
+            "evals": 823,
+            "seconds": 228.6
+          },
+          {
+            "kind": "downlifter",
+            "start": "descriptors",
+            "score": 61.53,
+            "ceiling": 99.8,
+            "evals": 841,
+            "seconds": 231.6
+          },
+          {
+            "kind": "reverse",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.02,
+            "evals": 821,
+            "seconds": 72.1
+          },
+          {
+            "kind": "click",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.68,
+            "evals": 842,
+            "seconds": 22.1
+          },
+          {
+            "kind": "tick",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 100.0,
+            "evals": 734,
+            "seconds": 14.9
+          },
+          {
+            "kind": "pop",
+            "start": "descriptors",
+            "score": 11.59,
+            "ceiling": 100.0,
+            "evals": 640,
+            "seconds": 14.1
+          },
+          {
+            "kind": "glitch",
+            "start": "descriptors",
+            "score": 98.97,
+            "ceiling": 98.93,
+            "evals": 665,
+            "seconds": 46.4
+          },
+          {
+            "kind": "keyboard",
+            "start": "descriptors",
+            "score": 0.03,
+            "ceiling": 99.8,
+            "evals": 841,
+            "seconds": 65.5
+          },
+          {
+            "kind": "impact",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 91.5,
+            "evals": 841,
+            "seconds": 115.6
+          },
+          {
+            "kind": "boom",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.91,
+            "evals": 841,
+            "seconds": 160.3
+          },
+          {
+            "kind": "subdrop",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 100.0,
+            "evals": 764,
+            "seconds": 103.2
+          },
+          {
+            "kind": "trigger",
+            "start": "descriptors",
+            "score": 0.0,
+            "ceiling": 99.74,
+            "evals": 841,
+            "seconds": 149.9
+          },
+          {
+            "kind": "keyboard",
+            "start": "previous",
+            "score": 0.0,
+            "ceiling": 98.97,
+            "evals": 0,
+            "seconds": 0.0
+          }
+        ]
+      }
+    }
+  ]
+}

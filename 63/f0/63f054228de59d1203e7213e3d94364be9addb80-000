@@ -1,0 +1,161 @@
+{
+  "date": "12 October 2026, 11:04",
+  "slug": "onekey-pro-2",
+  "version": "V_002",
+  "parent": "V_001",
+  "reports": {
+    "full": {
+      "window": {
+        "start": 0.0,
+        "end": 68.0533
+      },
+      "events": 1,
+      "scores": {
+        "sound": 99.84,
+        "sfx": 100.0,
+        "timing": 100.0,
+        "mix": 99.52,
+        "music": 98.35
+      },
+      "pass": false,
+      "threshold": 99.0,
+      "mix": {
+        "parts": {
+          "loudness": 99.99,
+          "curve": 98.57,
+          "truePeak": 100.0
+        },
+        "refLufs": -9.02,
+        "oursLufs": -9.11,
+        "truePeakDbtp": -1.1,
+        "curve": {
+          "window": "short-term",
+          "correlation": 0.9857,
+          "meanDiffLu": 0.11
+        }
+      },
+      "music": {
+        "score": 98.35,
+        "parts": {
+          "tempo": 100.0,
+          "sections": 98.08,
+          "energy": 95.4,
+          "key": 100.0
+        },
+        "tempoErrorPct": 0.0,
+        "boundaryErrorsS": [
+          0.01,
+          0.01,
+          1.373,
+          0.691,
+          4.76,
+          0.01,
+          0.01
+        ],
+        "energyCorrelation": 0.954,
+        "keyRef": "C minor",
+        "keyGen": "C minor"
+      },
+      "perEvent": [
+        {
+          "id": "E004",
+          "kind": "glitch",
+          "score": 100.0,
+          "ceiling": 98.7,
+          "atCeiling": true,
+          "E": 0.0,
+          "anchorRefS": 28.9121,
+          "anchorOursS": 28.9281,
+          "anchorErrorMs": 16.02,
+          "timingOk": true,
+          "errors": {
+            "level": -0.0,
+            "anchor": -0.0,
+            "attack": -0.0,
+            "duration": 0.0,
+            "brightness": 0.0,
+            "spectralShape": 0.0,
+            "pitch": 0.0
+          }
+        }
+      ],
+      "noEventsNote": null
+    },
+    "S02": {
+      "window": {
+        "start": 4.933,
+        "end": 6.283
+      },
+      "events": 0,
+      "scores": {
+        "sound": 93.59,
+        "sfx": 100.0,
+        "timing": 100.0,
+        "mix": 81.97,
+        "music": 86.24
+      },
+      "pass": false,
+      "threshold": 99.0,
+      "mix": {
+        "parts": {
+          "loudness": 99.56,
+          "curve": 55.32,
+          "truePeak": 100.0
+        },
+        "refLufs": -9.42,
+        "oursLufs": -8.76,
+        "truePeakDbtp": -1.1,
+        "curve": {
+          "window": "momentary",
+          "correlation": 0.5532,
+          "meanDiffLu": 0.68
+        }
+      },
+      "music": {
+        "score": 86.24,
+        "parts": {
+          "tempo": 100.0,
+          "sections": 100.0,
+          "energy": 55.32,
+          "key": 100.0
+        },
+        "tempoErrorPct": 0.0,
+        "boundaryErrorsS": [
+          0.01,
+          0.01,
+          1.373,
+          0.691,
+          4.76,
+          0.01,
+          0.01
+        ],
+        "energyCorrelation": 0.954,
+        "keyRef": "C minor",
+        "keyGen": "C minor",
+        "windowNote": "tempo and key are global; sections and energy measured inside the window"
+      },
+      "perEvent": [],
+      "noEventsNote": "no reference SFX event inside this window: SFX and timing scores are 100 by definition (nothing missing, nothing extra)"
+    }
+  },
+  "mix": {
+    "stemGainsDb": {
+      "drums": 1.6233510497044659,
+      "bass": 14.250747973324831,
+      "other": -2.5531072095369467
+    },
+    "duckDb": 0.0,
+    "integratedLufs": -9.11,
+    "truePeakDbtp": -1.1,
+    "referenceLufs": -9.02
+  },
+  "timing": {
+    "analyzeS": 1.4,
+    "segmentS": 12.7,
+    "fitS": 8.8,
+    "musicS": 0.7
+  },
+  "seconds": 30.4,
+  "overrides": {},
+  "rights": "outputs are our synthesis only; the reference contributed numbers (times, descriptors, loudness), never samples"
+}

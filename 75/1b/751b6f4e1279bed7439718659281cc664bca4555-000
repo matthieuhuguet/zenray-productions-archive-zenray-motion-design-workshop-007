@@ -1,0 +1,8 @@
+{
+  "version": "V_002",
+  "parent": "V_001",
+  "created": "12 October 2026, 11:04",
+  "note": "V_002: stem-based description, tonal notes routed to music, render seed choice",
+  "overrides": {},
+  "warm": true
+}

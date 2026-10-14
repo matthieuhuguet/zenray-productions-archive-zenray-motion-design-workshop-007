@@ -1,0 +1,8 @@
+{
+  "version": "V_006",
+  "parent": "V_005",
+  "created": "12 October 2026, 11:12",
+  "note": "V_006: ding air layer (harmonic tone plus high noise floor)",
+  "overrides": {},
+  "warm": true
+}

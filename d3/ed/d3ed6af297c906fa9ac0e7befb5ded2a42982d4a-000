@@ -1,0 +1,8 @@
+{
+  "version": "V_003",
+  "parent": "V_002",
+  "created": "12 October 2026, 11:06",
+  "note": "V_003: melody vs one-shot routing by note count and phrase neighbours; measured beat shapes (pump, gate) in the music",
+  "overrides": {},
+  "warm": true
+}

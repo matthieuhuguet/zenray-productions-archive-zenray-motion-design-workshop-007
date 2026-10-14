@@ -1,0 +1,13 @@
+{
+  "version": "V_017",
+  "parent": "V_016",
+  "created": "12 October 2026, 12:11",
+  "note": "V_017: objective = best single draw (what ships); swell timing tolerance as in the event score",
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "warm": true
+}

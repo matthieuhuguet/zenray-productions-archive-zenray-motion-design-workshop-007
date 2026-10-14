@@ -1,0 +1,8 @@
+{
+  "version": "V_005",
+  "parent": "V_004",
+  "created": "12 October 2026, 11:10",
+  "note": "V_005: drum onsets at lower flux delta, kick decided by the measured kick onsets",
+  "overrides": {},
+  "warm": true
+}

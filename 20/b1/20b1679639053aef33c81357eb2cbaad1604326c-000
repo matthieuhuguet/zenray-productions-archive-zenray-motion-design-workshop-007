@@ -1,0 +1,16 @@
+{
+ "date": "12 October 2026",
+ "private": true,
+ "kind": "music-resynthesis",
+ "stage": "assemble",
+ "parent": "V_034",
+ "flags": {
+  "refit": false,
+  "stemIter": true,
+  "eq": false,
+  "automation": false,
+  "stereo": false,
+  "mixBus": true
+ },
+ "seconds": 335.2
+}

@@ -1,0 +1,13 @@
+{
+  "version": "V_010",
+  "parent": "V_009",
+  "created": "12 October 2026, 11:20",
+  "note": "V_010: warm start matched by time, kick steps from kick onsets",
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "warm": true
+}

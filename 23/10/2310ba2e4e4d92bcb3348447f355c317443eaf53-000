@@ -1,0 +1,18 @@
+{
+ "date": "12 October 2026",
+ "private": true,
+ "kind": "music-resynthesis",
+ "stage": "retag",
+ "parent": "V_031",
+ "flags": {
+  "refit": false,
+  "retag": true,
+  "sms": true,
+  "dev": true,
+  "eq": true,
+  "automation": true,
+  "stereo": true,
+  "mixBus": true
+ },
+ "seconds": 654.1
+}

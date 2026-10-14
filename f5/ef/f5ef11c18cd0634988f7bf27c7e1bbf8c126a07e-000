@@ -1,0 +1,1229 @@
+{
+  "date": "13 October 2026, 14:29",
+  "slug": "onekey-pro-2",
+  "span": [
+    0.0,
+    68.05333333333333
+  ],
+  "candidates": 164,
+  "droppedAsMusic": 156,
+  "routedToMusicAsNotes": [
+    {
+      "id": "E002",
+      "t": 22.4,
+      "windowStart": 22.36,
+      "windowEnd": 25.4,
+      "peak": 22.465,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -45.7,
+      "onGrid": false,
+      "repeatExcessDb": 4.66,
+      "backgroundShiftS": 2.72582,
+      "reason": "melodic: several notes",
+      "peakHz": 587.0,
+      "degree": 2,
+      "centsOff": 1.1,
+      "key": "C minor",
+      "distinctNotes": 2,
+      "tonalNeighbours": 2
+    },
+    {
+      "id": "E003",
+      "t": 25.455,
+      "windowStart": 25.415,
+      "windowEnd": 25.52,
+      "peak": 25.52,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -57.2,
+      "onGrid": false,
+      "repeatExcessDb": 5.08,
+      "backgroundShiftS": 5.45165,
+      "reason": "melodic: tonal neighbours in the same phrase",
+      "peakHz": 779.7,
+      "degree": 7,
+      "centsOff": 9.5,
+      "key": "C minor",
+      "distinctNotes": 1,
+      "tonalNeighbours": 2
+    },
+    {
+      "id": "E004",
+      "t": 25.52,
+      "windowStart": 25.48,
+      "windowEnd": 26.02,
+      "detector": "transient",
+      "stem": "other",
+      "gridOffsetMs": 7.8,
+      "onGrid": true,
+      "repeatExcessDb": 6.35,
+      "backgroundShiftS": 5.45165,
+      "reason": "melodic: tonal neighbours in the same phrase",
+      "peakHz": 391.6,
+      "degree": 7,
+      "centsOff": 1.8,
+      "key": "C minor",
+      "distinctNotes": 1,
+      "tonalNeighbours": 2
+    },
+    {
+      "id": "E008",
+      "t": 57.855,
+      "windowStart": 57.815,
+      "windowEnd": 60.855,
+      "peak": 57.92,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -26.4,
+      "onGrid": false,
+      "repeatExcessDb": 4.57,
+      "backgroundShiftS": 5.45165,
+      "reason": "melodic: several notes",
+      "peakHz": 587.1,
+      "degree": 2,
+      "centsOff": 0.7,
+      "key": "C minor",
+      "distinctNotes": 4,
+      "tonalNeighbours": 0
+    }
+  ],
+  "events": [
+    {
+      "id": "E001",
+      "t": 20.7,
+      "windowStart": 20.66,
+      "windowEnd": 21.2,
+      "detector": "transient",
+      "stem": "drums",
+      "gridOffsetMs": -42.0,
+      "onGrid": false,
+      "repeatExcessDb": 3.48,
+      "backgroundShiftS": 5.45165,
+      "kind": "impact",
+      "why": [
+        "lowShare 0.53 >= 0.5"
+      ],
+      "alternatives": [
+        "trigger",
+        "boom"
+      ],
+      "anchorS": 20.66,
+      "refAnchorKind": "onset",
+      "levelDb": -14.42,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -14.42273,
+        "onsetS": 0.0,
+        "peakS": 0.04411,
+        "rawPeakS": 0.01766,
+        "anchorKind": "onset",
+        "attackS": 0.00416,
+        "spanS": 0.539,
+        "peakHz": 98.72827,
+        "prominenceDb": 20.02308,
+        "centroidHz": 915.11174,
+        "spreadHz": 2139.66589,
+        "flatness": 0.07644,
+        "harmonicity": 0.29566,
+        "centroidTraj": [
+          307.0,
+          2334.1,
+          898.9,
+          1332.3,
+          325.6,
+          361.6,
+          3035.3,
+          938.2
+        ],
+        "lowShare": 0.53319,
+        "bandwidthHz": 142.59259,
+        "centroidSlopeOct": 1.61188,
+        "subAttacks": 4,
+        "attackRateHz": 32.96703,
+        "attackCv": 0.22574,
+        "mfccMean": [
+          -168.531,
+          60.383,
+          -31.299,
+          31.181,
+          -8.695,
+          33.499,
+          -2.047,
+          19.869,
+          0.898,
+          12.85,
+          2.657,
+          2.768,
+          4.306
+        ],
+        "mfccStd": [
+          30.86,
+          14.83,
+          13.979,
+          5.376,
+          10.554,
+          5.722,
+          6.96,
+          6.588,
+          6.012,
+          5.01,
+          5.284,
+          5.105,
+          5.454
+        ],
+        "fluxMean": 1.41565,
+        "peakFraction": 0.08183
+      },
+      "fit": {
+        "event": "E001",
+        "kind": "chain",
+        "chainIds": [
+          "wind",
+          "stepped_glitch",
+          "reverb_fdn"
+        ],
+        "chain": {
+          "sr": 48000,
+          "seconds": 0.54,
+          "blocks": [
+            {
+              "block": "wind",
+              "params": {
+                "center_hz": 1211.669434,
+                "bw_oct": 3.457846,
+                "sweep_oct": 1.770486,
+                "lfo_hz": 0.647839,
+                "gust_depth": 0.999774,
+                "attack_s": 0.051708,
+                "amp_db": -23.654079
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 15
+            },
+            {
+              "block": "stepped_glitch",
+              "params": {
+                "step_hz": 14.173201,
+                "count": 6.439402,
+                "density": 0.665266,
+                "duty": 0.917296,
+                "edge_ms": 0.233869,
+                "f0_hz": 84.798431,
+                "pitch_spread_st": 1.518816,
+                "buzz": 0.133659,
+                "noise_db": -47.088638,
+                "amp_db": -13.608299,
+                "onset_s": 0.000466
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 15
+            },
+            {
+              "block": "reverb_fdn",
+              "params": {
+                "t60_s": 0.690645,
+                "hf_ratio": 0.100404,
+                "size": 0.529051,
+                "predelay_s": 0.024186,
+                "mix": 0.644059,
+                "out_db": 3.489746
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 15
+            }
+          ]
+        },
+        "score": 77.93,
+        "ploss": 77.9261,
+        "b1": 0.045,
+        "errors": {
+          "stft": 3.8112,
+          "mel": 2.7347,
+          "envelope": 1.652,
+          "onset": -0.2888
+        },
+        "stage": "full",
+        "ceiling": 100.0,
+        "ceilingNote": "a bank chain is deterministic: its own render scores 100",
+        "offsetS": 0.0,
+        "params": {},
+        "scoreMetric": "ploss",
+        "plossVariant": "official",
+        "seedChosen": 15,
+        "candidates": [
+          {
+            "ids": "wind+stepped_glitch+reverb_fdn",
+            "stage": "full",
+            "score": 77.6059,
+            "ploss": 77.6059,
+            "b1": 0.044,
+            "seconds": 983.01
+          },
+          {
+            "ids": "wind+stepped_glitch+reverb_noise_tail",
+            "stage": "full",
+            "score": 77.1057,
+            "ploss": 77.1057,
+            "b1": 0.0,
+            "seconds": 430.55
+          },
+          {
+            "ids": "wind+stepped_glitch+delay_echo",
+            "stage": "full",
+            "score": 77.0944,
+            "ploss": 77.0944,
+            "b1": 0.0,
+            "seconds": 496.37
+          },
+          {
+            "ids": "wind+stepped_glitch+pad_saw",
+            "stage": "full",
+            "score": 76.8351,
+            "ploss": 76.8351,
+            "b1": 0.019,
+            "seconds": 378.2
+          },
+          {
+            "ids": "wind+stepped_glitch+impact_layered",
+            "stage": "grow",
+            "score": 75.2632,
+            "ploss": 75.2632,
+            "b1": 15.008,
+            "seconds": 129.24
+          },
+          {
+            "ids": "wind+stepped_glitch+room_tone",
+            "stage": "grow",
+            "score": 75.2169,
+            "ploss": 75.2169,
+            "b1": 0.0,
+            "seconds": 114.71
+          },
+          {
+            "ids": "wind+stepped_glitch+saturation",
+            "stage": "grow",
+            "score": 74.8246,
+            "ploss": 74.8246,
+            "b1": 19.291,
+            "seconds": 95.57
+          },
+          {
+            "ids": "wind+stepped_glitch+transient_shaper",
+            "stage": "grow",
+            "score": 74.6343,
+            "ploss": 74.6343,
+            "b1": 0.383,
+            "seconds": 127.19
+          },
+          {
+            "ids": "wind+stepped_glitch+compressor",
+            "stage": "grow",
+            "score": 74.4624,
+            "ploss": 74.4624,
+            "b1": 0.0,
+            "seconds": 113.26
+          },
+          {
+            "ids": "impact_layered+room_tone+delay_echo",
+            "stage": "grow",
+            "score": 73.7259,
+            "ploss": 73.7259,
+            "b1": 0.0,
+            "seconds": 105.24
+          },
+          {
+            "ids": "impact_layered+room_tone+pad_saw",
+            "stage": "grow",
+            "score": 73.7151,
+            "ploss": 73.7151,
+            "b1": 0.0,
+            "seconds": 91.21
+          },
+          {
+            "ids": "wind+stepped_glitch+peak_eq",
+            "stage": "grow",
+            "score": 73.4463,
+            "ploss": 73.4463,
+            "b1": 7.37,
+            "seconds": 105.52
+          }
+        ],
+        "fits": 142,
+        "exceptions": [],
+        "recipeBaseline": {
+          "fromVersion": "V_012",
+          "kind": "impact",
+          "b1Shipped": 57.03,
+          "ploss": 0.0,
+          "plossStochastic": 0.0,
+          "b1": 0.596,
+          "errors": {
+            "stft": 9.3497,
+            "mel": 11.285,
+            "envelope": 36.0465,
+            "onset": -0.5065
+          }
+        }
+      }
+    },
+    {
+      "id": "E005",
+      "t": 28.735,
+      "windowStart": 28.695,
+      "windowEnd": 29.235,
+      "detector": "transient",
+      "stem": "drums",
+      "gridOffsetMs": -14.1,
+      "onGrid": true,
+      "repeatExcessDb": 3.36,
+      "backgroundShiftS": -2.72582,
+      "kind": "keyboard",
+      "why": [
+        "7 sub-attacks",
+        "rate 11.7 Hz in keyboard range"
+      ],
+      "alternatives": [
+        "glitch",
+        "tick"
+      ],
+      "anchorS": 28.9121,
+      "refAnchorKind": "peak",
+      "levelDb": -9.13,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -9.1347,
+        "onsetS": 0.0,
+        "peakS": 0.21705,
+        "rawPeakS": 0.3834,
+        "anchorKind": "peak",
+        "attackS": 0.20109,
+        "spanS": 0.539,
+        "peakHz": 184.62727,
+        "prominenceDb": 4.11813,
+        "centroidHz": 1252.46314,
+        "spreadHz": 2186.50786,
+        "flatness": 0.1039,
+        "harmonicity": 0.19219,
+        "centroidTraj": [
+          1050.6,
+          615.4,
+          914.9,
+          1693.6,
+          2014.4,
+          1154.2,
+          2495.1,
+          3947.5
+        ],
+        "lowShare": 0.05607,
+        "bandwidthHz": 170.37037,
+        "centroidSlopeOct": 1.90975,
+        "subAttacks": 7,
+        "attackRateHz": 11.74168,
+        "attackCv": 0.59345,
+        "mfccMean": [
+          -132.791,
+          62.723,
+          -31.606,
+          35.63,
+          -15.646,
+          22.535,
+          -7.28,
+          11.644,
+          -2.269,
+          3.907,
+          -0.52,
+          1.201,
+          2.265
+        ],
+        "mfccStd": [
+          43.556,
+          14.799,
+          11.5,
+          7.639,
+          6.329,
+          7.748,
+          5.505,
+          5.381,
+          5.173,
+          4.295,
+          4.551,
+          3.688,
+          4.02
+        ],
+        "fluxMean": 1.62489,
+        "peakFraction": 0.4027
+      },
+      "fit": {
+        "event": "E005",
+        "kind": "chain",
+        "chainIds": [
+          "hit_sequence",
+          "impact_layered",
+          "room_tone"
+        ],
+        "chain": {
+          "sr": 48000,
+          "seconds": 0.54,
+          "blocks": [
+            {
+              "block": "hit_sequence",
+              "params": {
+                "count": 11.879251,
+                "rate_hz": 5.209909,
+                "accel": 1.32151,
+                "jitter": 0.290605,
+                "crescendo_db": -7.221445,
+                "level_spread_db": 0.012,
+                "click_hz": 300.102051,
+                "bw_oct": 4.629323,
+                "bright_spread_oct": 0.651953,
+                "decay_s": 0.149935,
+                "body_hz": 199.817947,
+                "body_db": -7.474804,
+                "amp_db": -0.006001,
+                "onset_s": 0.171298
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 0
+            },
+            {
+              "block": "impact_layered",
+              "params": {
+                "body_hz": 167.350754,
+                "body_decay_s": 0.295177,
+                "click_db": -39.953999,
+                "tail_db": -13.52375,
+                "tail_cut_hz": 6934.677246,
+                "tail_decay_s": 3.998525,
+                "amp_db": -5.224655,
+                "onset_s": 0.027297
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 0
+            },
+            {
+              "block": "room_tone",
+              "params": {
+                "tilt_db_oct": -5.691563,
+                "hp_hz": 86.38752,
+                "lp_hz": 1503.890503,
+                "hum_hz": 96.239853,
+                "hum_db": -0.059998,
+                "fade_s": 0.04007,
+                "amp_db": -34.872658
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 0
+            }
+          ]
+        },
+        "score": 76.05,
+        "ploss": 76.0455,
+        "b1": 21.311,
+        "errors": {
+          "stft": 3.8162,
+          "mel": 2.6258,
+          "envelope": 2.4059,
+          "onset": -0.0078
+        },
+        "stage": "full",
+        "ceiling": 100.0,
+        "ceilingNote": "a bank chain is deterministic: its own render scores 100",
+        "offsetS": 0.0,
+        "params": {},
+        "scoreMetric": "ploss",
+        "plossVariant": "official",
+        "seedChosen": null,
+        "candidates": [
+          {
+            "ids": "hit_sequence+impact_layered+room_tone",
+            "stage": "full",
+            "score": 76.0455,
+            "ploss": 76.0455,
+            "b1": 21.311,
+            "seconds": 1249.09
+          },
+          {
+            "ids": "hit_sequence+impact_layered+paper_rustle",
+            "stage": "full",
+            "score": 75.6681,
+            "ploss": 75.6681,
+            "b1": 32.258,
+            "seconds": 1505.17
+          },
+          {
+            "ids": "hit_sequence+impact_layered+reverb_fdn",
+            "stage": "full",
+            "score": 75.629,
+            "ploss": 75.629,
+            "b1": 16.354,
+            "seconds": 2063.11
+          },
+          {
+            "ids": "hit_sequence+impact_layered+saturation",
+            "stage": "full",
+            "score": 75.4663,
+            "ploss": 75.4663,
+            "b1": 20.144,
+            "seconds": 1156.81
+          },
+          {
+            "ids": "hit_sequence+impact_layered+reverb_noise_tail",
+            "stage": "grow",
+            "score": 74.8127,
+            "ploss": 74.8127,
+            "b1": 31.342,
+            "seconds": 585.09
+          },
+          {
+            "ids": "hit_sequence+impact_layered+highpass_sweep",
+            "stage": "grow",
+            "score": 74.743,
+            "ploss": 74.743,
+            "b1": 17.15,
+            "seconds": 567.06
+          },
+          {
+            "ids": "hit_sequence+impact_layered+transient_shaper",
+            "stage": "grow",
+            "score": 74.5862,
+            "ploss": 74.5862,
+            "b1": 14.918,
+            "seconds": 578.79
+          },
+          {
+            "ids": "impact_layered+paper_rustle+delay_echo",
+            "stage": "grow",
+            "score": 74.555,
+            "ploss": 74.555,
+            "b1": 1.55,
+            "seconds": 183.63
+          },
+          {
+            "ids": "hit_sequence+impact_layered+delay_echo",
+            "stage": "grow",
+            "score": 74.4587,
+            "ploss": 74.4587,
+            "b1": 17.03,
+            "seconds": 616.12
+          },
+          {
+            "ids": "hit_sequence+impact_layered+lowpass_sweep",
+            "stage": "grow",
+            "score": 73.629,
+            "ploss": 73.629,
+            "b1": 15.093,
+            "seconds": 566.61
+          },
+          {
+            "ids": "impact_layered+delay_echo+transient_shaper",
+            "stage": "grow",
+            "score": 73.2741,
+            "ploss": 73.2741,
+            "b1": 1.459,
+            "seconds": 114.75
+          },
+          {
+            "ids": "impact_layered+room_tone+delay_echo",
+            "stage": "grow",
+            "score": 73.0377,
+            "ploss": 73.0377,
+            "b1": 2.361,
+            "seconds": 107.54
+          }
+        ],
+        "fits": 141,
+        "exceptions": [],
+        "recipeBaseline": {
+          "fromVersion": "V_001",
+          "kind": "glitch",
+          "b1Shipped": 100.0,
+          "ploss": 0.0326,
+          "plossStochastic": 8.3615,
+          "b1": 2.134,
+          "errors": {
+            "stft": 8.0541,
+            "mel": 8.5115,
+            "envelope": 25.7199,
+            "onset": 0.0001
+          }
+        }
+      }
+    },
+    {
+      "id": "E006",
+      "t": 28.825,
+      "windowStart": 28.785,
+      "windowEnd": 29.325,
+      "detector": "transient",
+      "stem": "other",
+      "gridOffsetMs": 75.9,
+      "onGrid": false,
+      "repeatExcessDb": 6.49,
+      "backgroundShiftS": 5.45165,
+      "kind": "impact",
+      "why": [
+        "lowShare 0.73 >= 0.5"
+      ],
+      "alternatives": [
+        "trigger",
+        "boom"
+      ],
+      "anchorS": 29.0157,
+      "refAnchorKind": "peak",
+      "levelDb": -18.54,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -18.53818,
+        "onsetS": 0.0,
+        "peakS": 0.23066,
+        "rawPeakS": 0.25249,
+        "anchorKind": "peak",
+        "attackS": 0.04278,
+        "spanS": 0.539,
+        "peakHz": 88.2419,
+        "prominenceDb": 6.15057,
+        "centroidHz": 236.99372,
+        "spreadHz": 778.23803,
+        "flatness": 0.00648,
+        "harmonicity": 0.25098,
+        "centroidTraj": [
+          456.7,
+          218.6,
+          138.3,
+          145.2,
+          151.0,
+          221.5,
+          310.2,
+          212.0
+        ],
+        "lowShare": 0.73368,
+        "bandwidthHz": 366.66667,
+        "centroidSlopeOct": -1.10693,
+        "subAttacks": 12,
+        "attackRateHz": 23.96514,
+        "attackCv": 0.39644,
+        "mfccMean": [
+          -214.502,
+          92.209,
+          2.518,
+          26.059,
+          0.768,
+          10.033,
+          0.45,
+          1.782,
+          0.361,
+          0.478,
+          1.658,
+          3.312,
+          3.409
+        ],
+        "mfccStd": [
+          21.166,
+          11.364,
+          9.344,
+          7.79,
+          8.432,
+          7.038,
+          5.104,
+          5.28,
+          5.666,
+          5.352,
+          3.682,
+          3.94,
+          4.395
+        ],
+        "fluxMean": 1.42058,
+        "peakFraction": 0.42794
+      },
+      "fit": {
+        "event": "E006",
+        "kind": "chain",
+        "chainIds": [
+          "wind",
+          "gated_tone",
+          "room_tone"
+        ],
+        "chain": {
+          "sr": 48000,
+          "seconds": 0.54,
+          "blocks": [
+            {
+              "block": "wind",
+              "params": {
+                "center_hz": 1546.466797,
+                "bw_oct": 4.999425,
+                "sweep_oct": 0.020358,
+                "lfo_hz": 3.083169,
+                "gust_depth": 0.729099,
+                "attack_s": 0.005002,
+                "amp_db": -40.382446
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 0
+            },
+            {
+              "block": "gated_tone",
+              "params": {
+                "f0_hz": 44.990444,
+                "tilt_db_oct": -4.687944,
+                "odd_db": -12.323521,
+                "rate_hz": 5.945876,
+                "phase": 0.141726,
+                "duty": 0.782787,
+                "depth_db": 7.093281,
+                "edge_ms": 0.500716,
+                "release_s": 11.19128,
+                "amp_db": -20.646507,
+                "onset_s": 0.001254
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 0
+            },
+            {
+              "block": "room_tone",
+              "params": {
+                "tilt_db_oct": -5.803549,
+                "hp_hz": 75.274094,
+                "lp_hz": 1500.226929,
+                "hum_hz": 67.023918,
+                "hum_db": -0.620811,
+                "fade_s": 0.040752,
+                "amp_db": -31.196039
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 0
+            }
+          ]
+        },
+        "score": 78.33,
+        "ploss": 78.3333,
+        "b1": 38.105,
+        "errors": {
+          "stft": 3.7517,
+          "mel": 2.6319,
+          "envelope": 1.7654,
+          "onset": -0.4231
+        },
+        "stage": "full",
+        "ceiling": 100.0,
+        "ceilingNote": "a bank chain is deterministic: its own render scores 100",
+        "offsetS": 0.0,
+        "params": {},
+        "scoreMetric": "ploss",
+        "plossVariant": "official",
+        "seedChosen": null,
+        "candidates": [
+          {
+            "ids": "wind+gated_tone+room_tone",
+            "stage": "full",
+            "score": 78.3333,
+            "ploss": 78.3333,
+            "b1": 38.105,
+            "seconds": 271.01
+          },
+          {
+            "ids": "wind+gated_tone+peak_eq",
+            "stage": "full",
+            "score": 77.4912,
+            "ploss": 77.4912,
+            "b1": 44.38,
+            "seconds": 250.44
+          },
+          {
+            "ids": "wind+gated_tone+delay_echo",
+            "stage": "full",
+            "score": 77.4758,
+            "ploss": 77.4758,
+            "b1": 39.653,
+            "seconds": 452.7
+          },
+          {
+            "ids": "filtered_noise_burst+gated_tone+room_tone",
+            "stage": "full",
+            "score": 77.1795,
+            "ploss": 77.1795,
+            "b1": 0.006,
+            "seconds": 219.55
+          },
+          {
+            "ids": "filtered_noise_burst+gated_tone+wind",
+            "stage": "grow",
+            "score": 77.0252,
+            "ploss": 77.0252,
+            "b1": 32.404,
+            "seconds": 107.19
+          },
+          {
+            "ids": "wind+gated_tone+lowpass_sweep",
+            "stage": "grow",
+            "score": 76.9926,
+            "ploss": 76.9926,
+            "b1": 38.359,
+            "seconds": 102.56
+          },
+          {
+            "ids": "wind+gated_tone+filtered_noise_burst",
+            "stage": "grow",
+            "score": 76.828,
+            "ploss": 76.828,
+            "b1": 44.242,
+            "seconds": 101.79
+          },
+          {
+            "ids": "wind+gated_tone+reverb_fdn",
+            "stage": "grow",
+            "score": 76.8162,
+            "ploss": 76.8162,
+            "b1": 46.501,
+            "seconds": 368.03
+          },
+          {
+            "ids": "filtered_noise_burst+gated_tone+reverb_fdn",
+            "stage": "grow",
+            "score": 76.5981,
+            "ploss": 76.5981,
+            "b1": 27.528,
+            "seconds": 330.03
+          },
+          {
+            "ids": "wind+gated_tone+reverb_noise_tail",
+            "stage": "grow",
+            "score": 76.5504,
+            "ploss": 76.5504,
+            "b1": 39.981,
+            "seconds": 111.63
+          },
+          {
+            "ids": "filtered_noise_burst+gated_tone+peak_eq",
+            "stage": "grow",
+            "score": 76.5009,
+            "ploss": 76.5009,
+            "b1": 0.009,
+            "seconds": 99.32
+          },
+          {
+            "ids": "filtered_noise_burst+gated_tone+pad_saw",
+            "stage": "grow",
+            "score": 76.3672,
+            "ploss": 76.3672,
+            "b1": 0.008,
+            "seconds": 124.74
+          }
+        ],
+        "fits": 143,
+        "exceptions": [],
+        "recipeBaseline": {
+          "fromVersion": "V_015",
+          "kind": "glitch",
+          "b1Shipped": 97.4,
+          "ploss": 0.0,
+          "plossStochastic": 0.0232,
+          "b1": 0.0,
+          "errors": {
+            "stft": 8.2581,
+            "mel": 9.952,
+            "envelope": 36.6609,
+            "onset": 0.2535
+          }
+        }
+      }
+    },
+    {
+      "id": "E007",
+      "t": 40.52,
+      "windowStart": 40.48,
+      "windowEnd": 41.02,
+      "detector": "transient",
+      "stem": "other",
+      "gridOffsetMs": 15.7,
+      "onGrid": true,
+      "repeatExcessDb": 21.69,
+      "backgroundShiftS": -2.72582,
+      "kind": "ding",
+      "why": [
+        "tonal, fast strike, long decay"
+      ],
+      "alternatives": [
+        "blip",
+        "shimmer"
+      ],
+      "anchorS": 40.48,
+      "refAnchorKind": "onset",
+      "levelDb": -14.53,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -14.52988,
+        "onsetS": 0.0,
+        "peakS": 0.06949,
+        "rawPeakS": 0.04428,
+        "anchorKind": "onset",
+        "attackS": 0.0296,
+        "spanS": 0.54,
+        "peakHz": 784.04121,
+        "prominenceDb": 44.78233,
+        "centroidHz": 1511.44064,
+        "spreadHz": 1496.53496,
+        "flatness": 0.00345,
+        "harmonicity": 0.99384,
+        "centroidTraj": [
+          1756.5,
+          1469.5,
+          1477.9,
+          1152.3,
+          1051.9,
+          1130.0,
+          1398.5,
+          1713.0
+        ],
+        "lowShare": 0.00014,
+        "bandwidthHz": 790.71023,
+        "centroidSlopeOct": -0.03617,
+        "subAttacks": 2,
+        "attackRateHz": 40.0,
+        "attackCv": 1.0,
+        "mfccMean": [
+          -190.313,
+          63.087,
+          -46.95,
+          11.075,
+          -29.247,
+          0.121,
+          -25.224,
+          -11.304,
+          -13.427,
+          1.643,
+          10.653,
+          17.835,
+          15.447
+        ],
+        "mfccStd": [
+          22.012,
+          11.101,
+          11.063,
+          5.967,
+          8.641,
+          8.372,
+          7.385,
+          4.138,
+          5.27,
+          4.998,
+          3.775,
+          5.813,
+          3.988
+        ],
+        "fluxMean": 1.09343,
+        "peakFraction": 0.12868
+      },
+      "fit": {
+        "event": "E007",
+        "kind": "chain",
+        "chainIds": [
+          "wind",
+          "gated_tone",
+          "stepped_glitch"
+        ],
+        "chain": {
+          "sr": 48000,
+          "seconds": 0.5400208333333333,
+          "blocks": [
+            {
+              "block": "wind",
+              "params": {
+                "center_hz": 992.984314,
+                "bw_oct": 4.998279,
+                "sweep_oct": 0.009065,
+                "lfo_hz": 2.711274,
+                "gust_depth": 0.564118,
+                "attack_s": 0.005063,
+                "amp_db": -39.455887
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 1
+            },
+            {
+              "block": "gated_tone",
+              "params": {
+                "f0_hz": 782.346863,
+                "tilt_db_oct": -8.617258,
+                "odd_db": 1.709669,
+                "rate_hz": 3.559014,
+                "phase": 0.933111,
+                "duty": 0.117398,
+                "depth_db": 4.464625,
+                "edge_ms": 1.805766,
+                "release_s": 3.058131,
+                "amp_db": -13.053673,
+                "onset_s": 0.012538
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 1
+            },
+            {
+              "block": "stepped_glitch",
+              "params": {
+                "step_hz": 29.615145,
+                "count": 11.908537,
+                "density": 0.150522,
+                "duty": 0.139305,
+                "edge_ms": 0.200156,
+                "f0_hz": 238.715775,
+                "pitch_spread_st": 4.72121,
+                "buzz": 0.925562,
+                "noise_db": -31.095623,
+                "amp_db": -35.250492,
+                "onset_s": 0.00046
+              },
+              "gainDb": 0.0,
+              "offsetS": 0.0,
+              "seed": 1
+            }
+          ]
+        },
+        "score": 83.73,
+        "ploss": 83.7342,
+        "b1": 77.521,
+        "errors": {
+          "stft": 3.4462,
+          "mel": 2.1595,
+          "envelope": 1.0601,
+          "onset": -0.0132
+        },
+        "stage": "full",
+        "ceiling": 100.0,
+        "ceilingNote": "a bank chain is deterministic: its own render scores 100",
+        "offsetS": 0.0,
+        "params": {},
+        "scoreMetric": "ploss",
+        "plossVariant": "official",
+        "seedChosen": 1,
+        "candidates": [
+          {
+            "ids": "wind+gated_tone+stepped_glitch",
+            "stage": "full",
+            "score": 83.6602,
+            "ploss": 83.6602,
+            "b1": 77.403,
+            "seconds": 352.16
+          },
+          {
+            "ids": "wind+gated_tone+highpass_sweep",
+            "stage": "full",
+            "score": 83.5195,
+            "ploss": 83.5195,
+            "b1": 74.688,
+            "seconds": 357.22
+          },
+          {
+            "ids": "wind+gated_tone+reverb_fdn",
+            "stage": "full",
+            "score": 83.3119,
+            "ploss": 83.3119,
+            "b1": 78.45,
+            "seconds": 923.62
+          },
+          {
+            "ids": "wind+gated_tone",
+            "stage": "full",
+            "score": 83.2769,
+            "ploss": 83.2769,
+            "b1": 76.178,
+            "seconds": 216.56
+          },
+          {
+            "ids": "wind+gated_tone+lowpass_sweep",
+            "stage": "grow",
+            "score": 82.8404,
+            "ploss": 82.8404,
+            "b1": 73.411,
+            "seconds": 95.29
+          },
+          {
+            "ids": "wind+gated_tone+delay_echo",
+            "stage": "grow",
+            "score": 82.8014,
+            "ploss": 82.8014,
+            "b1": 78.372,
+            "seconds": 130.46
+          },
+          {
+            "ids": "gated_tone+filtered_noise_burst+reverb_fdn",
+            "stage": "grow",
+            "score": 82.6452,
+            "ploss": 82.6452,
+            "b1": 69.671,
+            "seconds": 219.4
+          },
+          {
+            "ids": "gated_tone+filtered_noise_burst+transient_shaper",
+            "stage": "grow",
+            "score": 82.5598,
+            "ploss": 82.5598,
+            "b1": 70.774,
+            "seconds": 81.15
+          },
+          {
+            "ids": "gated_tone+filtered_noise_burst+highpass_sweep",
+            "stage": "grow",
+            "score": 82.468,
+            "ploss": 82.468,
+            "b1": 68.995,
+            "seconds": 84.97
+          },
+          {
+            "ids": "gated_tone+filtered_noise_burst+saturation",
+            "stage": "grow",
+            "score": 82.4628,
+            "ploss": 82.4628,
+            "b1": 66.732,
+            "seconds": 67.91
+          },
+          {
+            "ids": "wind+gated_tone+transient_shaper",
+            "stage": "grow",
+            "score": 82.3677,
+            "ploss": 82.3677,
+            "b1": 71.264,
+            "seconds": 101.69
+          },
+          {
+            "ids": "gated_tone+filtered_noise_burst+compressor",
+            "stage": "grow",
+            "score": 82.3664,
+            "ploss": 82.3664,
+            "b1": 70.511,
+            "seconds": 92.09
+          }
+        ],
+        "fits": 141,
+        "exceptions": [],
+        "recipeBaseline": {
+          "fromVersion": "V_001",
+          "kind": "keyboard",
+          "b1Shipped": 99.08,
+          "ploss": 0.0,
+          "plossStochastic": 0.0078,
+          "b1": 0.0,
+          "errors": {
+            "stft": 10.3402,
+            "mel": 11.6828,
+            "envelope": 35.4745,
+            "onset": 0.8824
+          }
+        }
+      }
+    }
+  ]
+}

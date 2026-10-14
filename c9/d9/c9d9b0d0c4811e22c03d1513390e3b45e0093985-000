@@ -1,0 +1,8 @@
+{
+  "version": "V_004",
+  "parent": "V_003",
+  "created": "12 October 2026, 11:09",
+  "note": "V_004: measured drum steps, bass register, ding harmonic-to-bell morph",
+  "overrides": {},
+  "warm": true
+}

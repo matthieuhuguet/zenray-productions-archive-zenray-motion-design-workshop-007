@@ -1,0 +1,8 @@
+{
+  "version": "V_008",
+  "parent": "V_007",
+  "created": "12 October 2026, 11:16",
+  "note": "V_008: background off (V_007 failed), harmonicity sets the ding start",
+  "overrides": {},
+  "warm": true
+}

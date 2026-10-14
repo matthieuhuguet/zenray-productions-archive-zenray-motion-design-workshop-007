@@ -1,0 +1,13 @@
+{
+  "version": "V_014",
+  "parent": "V_013",
+  "created": "12 October 2026, 11:38",
+  "note": "V_014: timing read per stem (measurement fix)",
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "warm": true
+}

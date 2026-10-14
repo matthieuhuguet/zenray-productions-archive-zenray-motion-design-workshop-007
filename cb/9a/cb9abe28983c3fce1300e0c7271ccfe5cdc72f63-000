@@ -1,0 +1,129 @@
+{
+ "stemTrims": [
+  {
+   "pass": 1,
+   "refitBus": 98.8189,
+   "trimmedBus": 98.7774,
+   "trimmedBusGain": 99.0636,
+   "history": [
+    {
+     "gains": {},
+     "gainDb": 1.95,
+     "mixTfBands": 98.8189
+    },
+    {
+     "gains": {
+      "bass": -1.5
+     },
+     "gainDb": 1.95,
+     "mixTfBands": 98.9253
+    },
+    {
+     "gains": {
+      "bass": -1.5,
+      "other": -1.5
+     },
+     "gainDb": 1.95,
+     "mixTfBands": 99.0289
+    },
+    {
+     "gains": {
+      "bass": -1.5,
+      "other": -1.5
+     },
+     "gainDb": 1.45,
+     "mixTfBands": 99.0493
+    },
+    {
+     "gains": {
+      "bass": -1.5,
+      "other": -1.5,
+      "drums": -0.25
+     },
+     "gainDb": 1.45,
+     "mixTfBands": 99.0557
+    },
+    {
+     "gains": {
+      "bass": -1.5,
+      "other": -1.0,
+      "drums": -0.25
+     },
+     "gainDb": 1.45,
+     "mixTfBands": 99.0636
+    }
+   ]
+  },
+  {
+   "pass": 2,
+   "refitBus": 98.8354,
+   "trimmedBus": 98.7935,
+   "trimmedBusGain": 99.0419,
+   "history": [
+    {
+     "gains": {
+      "bass": -1.5,
+      "other": -1.0,
+      "drums": -0.25
+     },
+     "gainDb": 2.19,
+     "mixTfBands": 98.8354
+    },
+    {
+     "gains": {
+      "bass": -1.5,
+      "other": -1.0,
+      "drums": -0.5
+     },
+     "gainDb": 2.19,
+     "mixTfBands": 98.8372
+    },
+    {
+     "gains": {
+      "bass": -3.0,
+      "other": -1.0,
+      "drums": -0.5
+     },
+     "gainDb": 2.19,
+     "mixTfBands": 98.9084
+    },
+    {
+     "gains": {
+      "bass": -3.0,
+      "other": -2.5,
+      "drums": -0.5
+     },
+     "gainDb": 2.19,
+     "mixTfBands": 99.0149
+    },
+    {
+     "gains": {
+      "bass": -3.0,
+      "other": -2.5,
+      "drums": -0.5
+     },
+     "gainDb": 1.94,
+     "mixTfBands": 99.0244
+    },
+    {
+     "gains": {
+      "bass": -3.0,
+      "other": -2.5,
+      "drums": -1.0
+     },
+     "gainDb": 1.94,
+     "mixTfBands": 99.0418
+    },
+    {
+     "gains": {
+      "bass": -3.0,
+      "other": -2.25,
+      "drums": -1.0
+     },
+     "gainDb": 1.94,
+     "mixTfBands": 99.0419
+    }
+   ]
+  }
+ ]
+}

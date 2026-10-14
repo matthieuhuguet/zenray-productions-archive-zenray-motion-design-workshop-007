@@ -1,0 +1,9 @@
+{
+  "version": "V_020",
+  "parent": "V_017",
+  "musicBench": "V_037",
+  "created": "13 October 2026, 10:49",
+  "kind": "soundtrack-benchmark",
+  "private": true,
+  "note": "MI-assemble: music bench V_037 (best stem-iter stems, refitted bus) plus SFX of V_017"
+}

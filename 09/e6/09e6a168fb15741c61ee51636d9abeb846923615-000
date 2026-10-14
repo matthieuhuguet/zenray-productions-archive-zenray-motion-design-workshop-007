@@ -1,0 +1,13 @@
+{
+  "version": "V_012",
+  "parent": "V_011",
+  "created": "12 October 2026, 11:29",
+  "note": "V_012: 30 ms repetition window for transients (two more candidates)",
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "warm": true
+}

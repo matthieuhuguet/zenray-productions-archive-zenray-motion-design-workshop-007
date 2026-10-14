@@ -1,0 +1,15 @@
+{
+ "date": "12 October 2026",
+ "private": true,
+ "kind": "music-resynthesis",
+ "stage": "bus",
+ "parent": "V_009",
+ "flags": {
+  "refit": false,
+  "eq": true,
+  "automation": true,
+  "stereo": true,
+  "mixBus": true
+ },
+ "seconds": 52.7
+}

@@ -1,0 +1,13 @@
+{
+  "version": "V_013",
+  "parent": "V_012",
+  "created": "12 October 2026, 11:34",
+  "note": "V_013: windows cut only by the next event on the same stem",
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "warm": true
+}

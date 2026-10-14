@@ -1,0 +1,9 @@
+{
+  "version": "V_021",
+  "parent": "V_020",
+  "created": "13 October 2026, 14:29",
+  "note": "A4: dfit default fitter (bank chains fitted 1:1 on each event window and stem, official ploss), 71 bank entries",
+  "overrides": {},
+  "warm": true,
+  "fitter": "dfit"
+}

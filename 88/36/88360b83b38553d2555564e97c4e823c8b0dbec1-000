@@ -1,0 +1,81 @@
+{
+ "stemTrims": [
+  [
+   {
+    "gains": {},
+    "mixTfBands": 98.8189
+   },
+   {
+    "gains": {
+     "bass": -1.5
+    },
+    "mixTfBands": 98.9253
+   },
+   {
+    "gains": {
+     "bass": -1.5,
+     "other": -1.5
+    },
+    "mixTfBands": 99.0289
+   },
+   {
+    "gains": {
+     "bass": -1.5,
+     "other": -1.5,
+     "drums": -0.5
+    },
+    "mixTfBands": 99.0418
+   },
+   {
+    "gains": {
+     "bass": -2.0,
+     "other": -1.5,
+     "drums": -0.5
+    },
+    "mixTfBands": 99.0596
+   }
+  ],
+  [
+   {
+    "gains": {
+     "bass": -2.0,
+     "other": -1.5,
+     "drums": -0.5
+    },
+    "mixTfBands": 98.8394
+   },
+   {
+    "gains": {
+     "bass": -2.0,
+     "other": -1.5,
+     "drums": -1.0
+    },
+    "mixTfBands": 98.8431
+   },
+   {
+    "gains": {
+     "bass": -3.5,
+     "other": -1.5,
+     "drums": -1.0
+    },
+    "mixTfBands": 98.9116
+   },
+   {
+    "gains": {
+     "bass": -3.5,
+     "other": -3.0,
+     "drums": -1.0
+    },
+    "mixTfBands": 99.0164
+   },
+   {
+    "gains": {
+     "bass": -3.5,
+     "other": -3.0,
+     "drums": -1.5
+    },
+    "mixTfBands": 99.0325
+   }
+  ]
+ ]
+}

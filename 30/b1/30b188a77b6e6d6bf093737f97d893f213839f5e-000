@@ -1,0 +1,13 @@
+{
+  "version": "V_016",
+  "parent": "V_015",
+  "created": "12 October 2026, 11:57",
+  "note": "V_016: official event score = shipped draw (seed fitted), cloud spread capped at 1 JND",
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "warm": true
+}

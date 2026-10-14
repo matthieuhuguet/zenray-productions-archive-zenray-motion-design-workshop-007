@@ -1,0 +1,181 @@
+{
+  "date": "12 October 2026, 22:15",
+  "slug": "onekey-pro-2",
+  "version": "V_019",
+  "parent": "V_017",
+  "musicBench": "V_034",
+  "reports": {
+    "full": {
+      "window": {
+        "start": 0.0,
+        "end": 68.0533
+      },
+      "events": 4,
+      "scores": {
+        "sound": 80.76,
+        "sfx": 52.82,
+        "timing": 100.0,
+        "mix": 99.71,
+        "music": 99.96
+      },
+      "pass": false,
+      "threshold": 99.0,
+      "mix": {
+        "parts": {
+          "loudness": 99.99,
+          "curve": 99.14,
+          "truePeak": 100.0
+        },
+        "refLufs": -9.02,
+        "oursLufs": -9.1,
+        "truePeakDbtp": -1.09,
+        "curve": {
+          "window": "short-term",
+          "correlation": 0.9914,
+          "meanDiffLu": 0.36
+        }
+      },
+      "music": {
+        "score": 99.96,
+        "parts": {
+          "tempo": 100.0,
+          "sections": 99.93,
+          "energy": 99.93,
+          "key": 100.0
+        },
+        "tempoErrorPct": 0.001,
+        "boundaryErrorsS": [
+          0.01,
+          0.691,
+          0.691,
+          0.01,
+          0.01,
+          0.01,
+          0.01
+        ],
+        "energyCorrelation": 0.9993,
+        "keyRef": "C minor",
+        "keyGen": "C minor"
+      },
+      "perEvent": [
+        {
+          "id": "E001",
+          "kind": "impact",
+          "score": 6.42,
+          "ceiling": 95.2,
+          "atCeiling": false,
+          "E": 16.531,
+          "anchorRefS": 20.66,
+          "anchorOursS": 20.6644,
+          "anchorErrorMs": 4.42,
+          "timingOk": true,
+          "errors": {
+            "level": -0.8584,
+            "anchor": 0.4424,
+            "attack": 2.2144,
+            "duration": -6.1224,
+            "brightness": 14.6647,
+            "spectralShape": 3.8323,
+            "pitch": 0.4496
+          }
+        },
+        {
+          "id": "E005",
+          "kind": "whoosh",
+          "score": 55.15,
+          "ceiling": 98.13,
+          "atCeiling": false,
+          "E": 7.695,
+          "anchorRefS": 28.9121,
+          "anchorOursS": 28.9268,
+          "anchorErrorMs": 14.68,
+          "timingOk": true,
+          "errors": {
+            "level": 0.1073,
+            "anchor": 0.7321,
+            "attack": -1.7784,
+            "duration": -1.1503,
+            "brightness": 5.7014,
+            "spectralShape": 4.656,
+            "pitch": 0.0
+          }
+        },
+        {
+          "id": "E006",
+          "kind": "impact",
+          "score": 71.4,
+          "ceiling": 97.65,
+          "atCeiling": false,
+          "E": 5.79,
+          "anchorRefS": 29.0157,
+          "anchorOursS": 29.0157,
+          "anchorErrorMs": 0.04,
+          "timingOk": true,
+          "errors": {
+            "level": -0.5162,
+            "anchor": -0.0403,
+            "attack": 1.5445,
+            "duration": 3.154,
+            "brightness": 2.4657,
+            "spectralShape": 3.8528,
+            "pitch": -0.0
+          }
+        },
+        {
+          "id": "E007",
+          "kind": "ding",
+          "score": 83.77,
+          "ceiling": 99.94,
+          "atCeiling": false,
+          "E": 4.198,
+          "anchorRefS": 40.48,
+          "anchorOursS": 40.48,
+          "anchorErrorMs": 0.0,
+          "timingOk": true,
+          "errors": {
+            "level": 0.0927,
+            "anchor": 0.0,
+            "attack": 0.0631,
+            "duration": -0.2593,
+            "brightness": 3.1219,
+            "spectralShape": 2.786,
+            "pitch": -0.1966
+          }
+        }
+      ],
+      "noEventsNote": null
+    }
+  },
+  "musicAloneReport": {
+    "scores": {
+      "sound": 0.0,
+      "sfx": 0.0,
+      "timing": 0.0,
+      "mix": 0.21,
+      "music": 99.96
+    },
+    "mix": {
+      "parts": {
+        "loudness": 99.92,
+        "curve": 99.21,
+        "truePeak": 0.0
+      },
+      "refLufs": -9.02,
+      "oursLufs": -9.31,
+      "truePeakDbtp": -0.97,
+      "curve": {
+        "window": "short-term",
+        "correlation": 0.9921,
+        "meanDiffLu": 0.11
+      }
+    }
+  },
+  "mix": {
+    "integratedLufs": -9.1,
+    "truePeakDbtp": -1.09,
+    "referenceLufs": -9.02,
+    "sfxGainDb": 0.0
+  },
+  "seconds": 16.5,
+  "rights": "1:1 benchmark, private: our synthesis only (music rebuilt from the transcribed score, SFX from fitted recipes); never published"
+}

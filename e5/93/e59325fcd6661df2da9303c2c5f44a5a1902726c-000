@@ -1,0 +1,212 @@
+{
+  "date": "13 October 2026, 14:29",
+  "slug": "onekey-pro-2",
+  "version": "V_021",
+  "parent": "V_020",
+  "reports": {
+    "full": {
+      "window": {
+        "start": 0.0,
+        "end": 68.0533
+      },
+      "events": 4,
+      "scores": {
+        "sound": 83.77,
+        "sfx": 78.5,
+        "timing": 75.0,
+        "mix": 99.84,
+        "music": 99.16
+      },
+      "pass": false,
+      "threshold": 99.0,
+      "mix": {
+        "parts": {
+          "loudness": 100.0,
+          "curve": 99.51,
+          "truePeak": 100.0
+        },
+        "refLufs": -9.02,
+        "oursLufs": -9.06,
+        "truePeakDbtp": -1.1,
+        "curve": {
+          "window": "short-term",
+          "correlation": 0.9951,
+          "meanDiffLu": -0.21
+        }
+      },
+      "music": {
+        "score": 99.16,
+        "parts": {
+          "tempo": 100.0,
+          "sections": 99.97,
+          "energy": 96.72,
+          "key": 100.0
+        },
+        "tempoErrorPct": 0.002,
+        "boundaryErrorsS": [
+          0.013,
+          0.668,
+          0.013,
+          0.013,
+          0.013,
+          0.014,
+          0.014
+        ],
+        "energyCorrelation": 0.9672,
+        "keyRef": "C minor",
+        "keyGen": "C minor"
+      },
+      "perEvent": [
+        {
+          "id": "E001",
+          "kind": "chain",
+          "score": 77.93,
+          "ceiling": 100.0,
+          "atCeiling": false,
+          "E": null,
+          "anchorRefS": 20.66,
+          "anchorOursS": 20.66,
+          "anchorErrorMs": 0.0,
+          "timingOk": true,
+          "errors": {
+            "stft": 3.8112,
+            "mel": 2.7347,
+            "envelope": 1.652,
+            "onset": -0.2888
+          }
+        },
+        {
+          "id": "E005",
+          "kind": "chain",
+          "score": 76.05,
+          "ceiling": 100.0,
+          "atCeiling": false,
+          "E": null,
+          "anchorRefS": 28.9121,
+          "anchorOursS": 28.9095,
+          "anchorErrorMs": -2.62,
+          "timingOk": true,
+          "errors": {
+            "stft": 3.8162,
+            "mel": 2.6258,
+            "envelope": 2.4059,
+            "onset": -0.0078
+          }
+        },
+        {
+          "id": "E006",
+          "kind": "chain",
+          "score": 78.33,
+          "ceiling": 100.0,
+          "atCeiling": false,
+          "E": null,
+          "anchorRefS": 29.0157,
+          "anchorOursS": 29.0545,
+          "anchorErrorMs": 38.8,
+          "timingOk": false,
+          "errors": {
+            "stft": 3.7517,
+            "mel": 2.6319,
+            "envelope": 1.7654,
+            "onset": -0.4231
+          }
+        },
+        {
+          "id": "E007",
+          "kind": "chain",
+          "score": 83.73,
+          "ceiling": 100.0,
+          "atCeiling": false,
+          "E": null,
+          "anchorRefS": 40.48,
+          "anchorOursS": 40.48,
+          "anchorErrorMs": 0.0,
+          "timingOk": true,
+          "errors": {
+            "stft": 3.4462,
+            "mel": 2.1595,
+            "envelope": 1.0601,
+            "onset": -0.0132
+          }
+        }
+      ],
+      "noEventsNote": null
+    },
+    "S02": {
+      "window": {
+        "start": 4.933,
+        "end": 6.283
+      },
+      "events": 0,
+      "scores": {
+        "sound": 99.67,
+        "sfx": 100.0,
+        "timing": 100.0,
+        "mix": 99.03,
+        "music": 99.29
+      },
+      "pass": true,
+      "threshold": 99.0,
+      "mix": {
+        "parts": {
+          "loudness": 99.93,
+          "curve": 97.18,
+          "truePeak": 100.0
+        },
+        "refLufs": -9.42,
+        "oursLufs": -9.69,
+        "truePeakDbtp": -1.1,
+        "curve": {
+          "window": "momentary",
+          "correlation": 0.9718,
+          "meanDiffLu": -0.28
+        }
+      },
+      "music": {
+        "score": 99.29,
+        "parts": {
+          "tempo": 100.0,
+          "sections": 100.0,
+          "energy": 97.18,
+          "key": 100.0
+        },
+        "tempoErrorPct": 0.002,
+        "boundaryErrorsS": [
+          0.013,
+          0.668,
+          0.013,
+          0.013,
+          0.013,
+          0.014,
+          0.014
+        ],
+        "energyCorrelation": 0.9672,
+        "keyRef": "C minor",
+        "keyGen": "C minor",
+        "windowNote": "tempo and key are global; sections and energy measured inside the window"
+      },
+      "perEvent": [],
+      "noEventsNote": "no reference SFX event inside this window: SFX and timing scores are 100 by definition (nothing missing, nothing extra)"
+    }
+  },
+  "mix": {
+    "stemGainsDb": {
+      "drums": 4.879758800560472,
+      "bass": 5.18343647702298,
+      "other": -3.108197883641175
+    },
+    "duckDb": 0.0,
+    "integratedLufs": -9.06,
+    "truePeakDbtp": -1.1,
+    "referenceLufs": -9.02
+  },
+  "timing": {
+    "analyzeS": 1.5,
+    "segmentS": 14.8,
+    "fitS": 4455.7,
+    "musicS": 1.2
+  },
+  "seconds": 4478.7,
+  "overrides": {},
+  "rights": "outputs are our synthesis only; the reference contributed numbers (times, descriptors, loudness), never samples"
+}

@@ -1,0 +1,13 @@
+{
+  "version": "V_011",
+  "parent": "V_010",
+  "created": "12 October 2026, 11:23",
+  "note": "V_011: measured kick decay (98 ms)",
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "warm": true
+}

@@ -1,0 +1,13 @@
+{
+  "version": "V_015",
+  "parent": "V_014",
+  "created": "12 October 2026, 11:47",
+  "note": "V_015: render seed keeps the anchor in tolerance; all 18 classes tried for events under 95",
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "warm": true
+}

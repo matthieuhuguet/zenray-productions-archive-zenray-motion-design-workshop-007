@@ -1,0 +1,282 @@
+{
+  "date": "12 October 2026, 11:04",
+  "slug": "onekey-pro-2",
+  "span": [
+    0.0,
+    68.05333333333333
+  ],
+  "candidates": 164,
+  "droppedAsMusic": 158,
+  "routedToMusicAsNotes": [
+    {
+      "id": "E001",
+      "t": 22.4,
+      "windowStart": 22.36,
+      "windowEnd": 25.4,
+      "peak": 22.465,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -45.7,
+      "onGrid": false,
+      "repeatExcessDb": 4.66,
+      "reason": "tonal note on the key scale",
+      "peakHz": 587.0,
+      "degree": 2,
+      "centsOff": 1.1,
+      "key": "C minor"
+    },
+    {
+      "id": "E002",
+      "t": 25.455,
+      "windowStart": 25.415,
+      "windowEnd": 25.52,
+      "peak": 25.52,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -57.2,
+      "onGrid": false,
+      "repeatExcessDb": 5.08,
+      "reason": "tonal note on the key scale",
+      "peakHz": 779.7,
+      "degree": 7,
+      "centsOff": 9.5,
+      "key": "C minor"
+    },
+    {
+      "id": "E003",
+      "t": 25.52,
+      "windowStart": 25.48,
+      "windowEnd": 26.02,
+      "detector": "transient",
+      "stem": "other",
+      "gridOffsetMs": 7.8,
+      "onGrid": true,
+      "repeatExcessDb": 5.21,
+      "reason": "tonal note on the key scale",
+      "peakHz": 391.6,
+      "degree": 7,
+      "centsOff": 1.8,
+      "key": "C minor"
+    },
+    {
+      "id": "E005",
+      "t": 40.52,
+      "windowStart": 40.48,
+      "windowEnd": 41.02,
+      "detector": "transient",
+      "stem": "other",
+      "gridOffsetMs": 15.7,
+      "onGrid": true,
+      "repeatExcessDb": 18.13,
+      "reason": "tonal note on the key scale",
+      "peakHz": 784.0,
+      "degree": 7,
+      "centsOff": 0.1,
+      "key": "C minor"
+    },
+    {
+      "id": "E006",
+      "t": 57.855,
+      "windowStart": 57.815,
+      "windowEnd": 60.855,
+      "peak": 57.92,
+      "detector": "swell",
+      "stem": "other",
+      "gridOffsetMs": -26.4,
+      "onGrid": false,
+      "repeatExcessDb": 4.57,
+      "reason": "tonal note on the key scale",
+      "peakHz": 587.1,
+      "degree": 2,
+      "centsOff": 0.7,
+      "key": "C minor"
+    }
+  ],
+  "events": [
+    {
+      "id": "E004",
+      "t": 28.735,
+      "windowStart": 28.695,
+      "windowEnd": 29.235,
+      "detector": "transient",
+      "stem": "drums",
+      "gridOffsetMs": -14.1,
+      "onGrid": true,
+      "repeatExcessDb": 7.58,
+      "kind": "keyboard",
+      "why": [
+        "7 sub-attacks",
+        "rate 11.7 Hz in keyboard range"
+      ],
+      "alternatives": [
+        "glitch",
+        "tick"
+      ],
+      "anchorS": 28.9121,
+      "refAnchorKind": "peak",
+      "levelDb": -9.13,
+      "descriptors": {
+        "resolution": "long",
+        "levelDb": -9.1347,
+        "onsetS": 0.0,
+        "peakS": 0.21705,
+        "rawPeakS": 0.3834,
+        "anchorKind": "peak",
+        "attackS": 0.20109,
+        "spanS": 0.539,
+        "peakHz": 184.62727,
+        "prominenceDb": 4.11813,
+        "centroidHz": 1252.46314,
+        "spreadHz": 2186.50786,
+        "flatness": 0.1039,
+        "centroidTraj": [
+          1050.6,
+          615.4,
+          914.9,
+          1693.6,
+          2014.4,
+          1154.2,
+          2495.1,
+          3947.5
+        ],
+        "lowShare": 0.05607,
+        "bandwidthHz": 170.37037,
+        "centroidSlopeOct": 1.90975,
+        "subAttacks": 7,
+        "attackRateHz": 11.74168,
+        "attackCv": 0.59345,
+        "mfccMean": [
+          -132.791,
+          62.723,
+          -31.606,
+          35.63,
+          -15.646,
+          22.535,
+          -7.28,
+          11.644,
+          -2.269,
+          3.907,
+          -0.52,
+          1.201,
+          2.265
+        ],
+        "mfccStd": [
+          43.556,
+          14.799,
+          11.5,
+          7.639,
+          6.329,
+          7.748,
+          5.505,
+          5.381,
+          5.173,
+          4.295,
+          4.551,
+          3.688,
+          4.02
+        ],
+        "fluxMean": 1.62489,
+        "peakFraction": 0.4027
+      },
+      "fit": {
+        "event": "E004",
+        "kind": "glitch",
+        "start": "descriptors",
+        "objective": 0.0,
+        "params": {
+          "duration": 0.60232,
+          "grains": 14.0,
+          "grainMs": 15.21628,
+          "bits": 4.97474,
+          "hold": 4.22857,
+          "toneHz": 241.60755,
+          "gainDb": -4.38792
+        },
+        "offsetS": -0.04,
+        "evals": 95,
+        "seconds": 1.6,
+        "score": 100.0,
+        "E": 0.0,
+        "ceiling": 98.7,
+        "errors": {
+          "level": -0.0,
+          "anchor": -0.0,
+          "attack": -0.0,
+          "duration": 0.0,
+          "brightness": 0.0,
+          "spectralShape": 0.0,
+          "pitch": 0.0
+        },
+        "spread": {
+          "level": 1.2402,
+          "anchor": 5.5393,
+          "attack": 24.9198,
+          "duration": 1.4297,
+          "brightness": 39.4881,
+          "spectralShape": 3.7545,
+          "pitch": 0.0
+        },
+        "renderSeed": 122,
+        "renderSingleE": 12.532,
+        "candidates": [
+          {
+            "kind": "keyboard",
+            "start": "descriptors",
+            "score": 99.0,
+            "ceiling": 98.95,
+            "evals": 281,
+            "seconds": 5.0
+          },
+          {
+            "kind": "keyboard",
+            "start": "centre",
+            "score": 95.1,
+            "ceiling": 95.21,
+            "evals": 471,
+            "seconds": 7.5
+          },
+          {
+            "kind": "keyboard",
+            "start": "cma",
+            "score": 98.72,
+            "ceiling": 98.8,
+            "evals": 471,
+            "seconds": 7.9
+          },
+          {
+            "kind": "keyboard",
+            "start": "cma",
+            "score": 98.5,
+            "ceiling": 98.25,
+            "evals": 471,
+            "seconds": 7.1
+          },
+          {
+            "kind": "glitch",
+            "start": "descriptors",
+            "score": 100.0,
+            "ceiling": 98.7,
+            "evals": 95,
+            "seconds": 1.6
+          },
+          {
+            "kind": "tick",
+            "start": "descriptors",
+            "score": 11.61,
+            "ceiling": 100.0,
+            "evals": 297,
+            "seconds": 1.2
+          },
+          {
+            "kind": "glitch",
+            "start": "previous",
+            "score": 100.0,
+            "ceiling": 98.7,
+            "evals": 0,
+            "seconds": 0.0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+ "date": "12 October 2026",
+ "private": true,
+ "kind": "music-resynthesis-rerender",
+ "renderedFrom": "../sound/onekey-pro-2/music-bench/V_037/params.json",
+ "note": "MI-assemble reproduction check of V_037"
+}

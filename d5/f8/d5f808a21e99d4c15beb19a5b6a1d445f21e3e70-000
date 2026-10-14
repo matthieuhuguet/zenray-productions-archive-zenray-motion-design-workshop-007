@@ -1,0 +1,152 @@
+{
+ "project": "zenray-motion-design",
+ "updated": "12 October 2026",
+ "goal_x": "Engine zrmd: reference video in, storyboard + graphic bible + versioned HyperFrames motions (V_001..V_999) + code-synthesised SFX + fidelity report out; onekey-pro-2 reproduced at fidelity >= 0.99 on the measured dimensions (rhythm, animation curves, SFX onsets and spectral envelopes, layout, colour, typography metrics), brand content swapped for original; MCP server; Motion Design tab in ZenRayProgress (YouTube-like gallery, motion page, iteration request); local editor with format adaptation and LOAD; skill updated; archived in Assets with cloud proof.",
+ "status": "usage limit reached; film reproduced (26/26 cuts), overlays need cleanup; B1 sound and B2 bibles workflow wf_f8dda64b-6c1 still running",
+ "reference_cache": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design-refcache (local only, never archived)",
+ "previous_study": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design-01",
+ "next": [
+  "Read build workflow wf_f8dda64b-6c1 results (B1 sound, B2 bibles); if it stopped, resume with resumeFromRunId",
+  "Overlay fixes: phrase bank shared across the film (same phrase repeated), reject UI text inside product screens (t 39-43 s), overlapping lines (t 30 s)",
+  "Mux best sound mix into the film; fix B2 family classifier (3D under-detected)",
+  "Ask Matthieu to validate rights before publishing motions; archive and verify in Assets"
+ ],
+ "workflows": [
+  {
+   "name": "zrmd-research",
+   "runId": "wf_00e6dd64-d65",
+   "taskId": "wuhvyl0jq",
+   "started": "12 October 2026",
+   "transcriptDir": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/subagents/workflows/wf_00e6dd64-d65",
+   "script": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/workflows/scripts/zrmd-research-wf_00e6dd64-d65.js",
+   "deliverables": "docs/research/R01..R10, docs/ARCHITECTURE-draft.md, docs/PLAN-draft.md, docs/CRITIC.md",
+   "resumed": "12 October 2026, resume task w8fr7gh90"
+  },
+  {
+   "name": "zrmd-build",
+   "runId": "wf_f8dda64b-6c1",
+   "taskId": "wjuqm4kld",
+   "started": "12 October 2026",
+   "script": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/workflows/scripts/zrmd-build-wf_f8dda64b-6c1.js",
+   "transcriptDir": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/subagents/workflows/wf_f8dda64b-6c1",
+   "deliverables": "docs/build/B1-sound.md, B2-bible-storyboard.md, B3-site-service.md",
+   "status": "completed 12 October 2026: B1 sound V_017 (S02 window 99.67, full 80.79, SFX 52.82), B2 12 bibles 755 shots, B3 site"
+  },
+  {
+   "name": "zrmd-shader-bank",
+   "runId": "wf_b69dc8f9-550",
+   "taskId": "w2fuzj0t9",
+   "started": "12 October 2026",
+   "script": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/workflows/scripts/zrmd-shader-bank-wf_b69dc8f9-550.js",
+   "transcriptDir": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/subagents/workflows/wf_b69dc8f9-550",
+   "deliverables": "ZenRayMotionDesign/datasets/shaders (bank, index.json, looks-onekey.json), docs/build/S0..S4"
+  },
+  {
+   "name": "zrmd-sound-bank",
+   "runId": "wf_b3a1d85d-270",
+   "taskId": "wd5jxkfet",
+   "started": "12 October 2026",
+   "script": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/workflows/scripts/zrmd-sound-bank-wf_b3a1d85d-270.js",
+   "transcriptDir": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/subagents/workflows/wf_b3a1d85d-270",
+   "deliverables": "ZenRayMotionDesign/datasets/sound-bank, zrmd/audio/bank.py ploss.py dfit.py, docs/build/A0..A4, sound/onekey-pro-2/V_018+",
+   "resumed_again": "12 October 2026, after session restart"
+  },
+  {
+   "name": "zrmd-music-1to1",
+   "runId": "wf_7c689550-589",
+   "taskId": "wlggqqg02",
+   "started": "12 October 2026",
+   "script": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/workflows/scripts/zrmd-music-1to1-wf_7c689550-589.js",
+   "transcriptDir": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/subagents/workflows/wf_7c689550-589",
+   "deliverables": "sound/onekey-pro-2/music-bench/score.json and V_NNN, docs/build/M1..M3, assembled soundtrack V_NNN",
+   "resumed_again": "12 October 2026, after session restart"
+  },
+  {
+   "name": "zrmd-2d-svg-fonts",
+   "runId": "wf_ef80dd35-23f",
+   "taskId": "wnx4gt38u",
+   "started": "12 October 2026",
+   "script": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/workflows/scripts/zrmd-2d-svg-fonts-wf_ef80dd35-23f.js",
+   "transcriptDir": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/subagents/workflows/wf_ef80dd35-23f",
+   "deliverables": "zrmd/vector, datasets/fonts (400+ free families, features.jsonl), font creator, SVG creator, docs/build/F0..F3, OneKey 2D assets",
+   "resumed_again": "12 October 2026, after session restart"
+  },
+  {
+   "name": "zrmd-music-iterate",
+   "runId": "wf_14b7b93a-9a1",
+   "taskId": "wm3ezdw55",
+   "started": "12 October 2026",
+   "script": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/workflows/scripts/zrmd-music-iterate-wf_14b7b93a-9a1.js",
+   "deliverables": "music-bench/stem-iter/<stem>/V_NNN, zrmd/audio/stems/*.py, music-bench V_035+, docs/build/MI-*.md"
+  }
+ ],
+ "rule_resume": "If a workflow stops: Workflow({scriptPath, resumeFromRunId}) with the runId below, never a fresh run (12 October 2026)",
+ "done": [
+  "CLAUDE.md rule (commit bafbfea6)",
+  "Assets project zenray-motion-design bound to session 7e78b89b",
+  "repo ZenRayMotionDesign (commit 4ab939e): media, settings, versions, shots (26 cuts on onekey), sheets, audio/events",
+  "12 references downloaded (refcache), metadata in references/",
+  "venv ~/.venvs/zenray-motion with demucs (MPS); onekey stems in refcache/onekey-pro-2/stems/out/htdemucs"
+ ],
+ "agents": [
+  {
+   "id": "ac1dc0a9e2ded4f4c",
+   "task": "font dataset + glyph matcher (R11)",
+   "started": "12 October 2026",
+   "transcript": "/Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e78b89b-c9f6-435b-aeea-a9878d6c808b/subagents/agent-ac1dc0a9e2ded4f4c.jsonl",
+   "deliverable": "docs/research/R11-fonts.md, datasets/fonts/, zrmd/analyze/fontmatch.py"
+  }
+ ],
+ "s02_status": "motions/onekey-s02-caption-shine V_007 0.9616 (weakest image 0.9616); calibration same words 0.9606: limit is the font (Inter vs wide geometric grotesque)",
+ "film_latest": "/Users/zenray/.claude/tmp/tmp-zenray-motion-design-montages/onekey-film/12_October_2026_11:46/film-silent.mp4",
+ "device3d": {
+  "date": "12 October 2026",
+  "motion": "motions/onekey-d01-device-pullback",
+  "versions": "V_001..V_011",
+  "done": "measured track (width, centre, tilt), extruded rounded body, rim colour score",
+  "rejected": "screen texture from a sampled colour grid (Matthieu: blurry, not procedural); replace with GLSL from the shader bank",
+  "next": "keyframes 12,18 (blue look) then V_012; screen UI texts via font creator; droplet ring; circle reveal frames 0..12 (transition_iris)",
+  "screen": "V_011: procedural arch_stack_grid shader (14x8 colour grid, 3 control arches), keyframes 24..93 masked RMS 9.1 to 16.6 levels; V_010 failed (gl_FragColor in GLSL3), kept"
+ },
+ "note_build_wf": "12 October 2026 12:10: zrmd-build B1 and B2 checked alive (last writes 12:07, each waiting on a long job); not restarted to avoid losing in-flight work. Resume by runId wf_f8dda64b-6c1 only if they stop.",
+ "rule_change": "12 October 2026: everything (music included) is reproduced 1:1 procedurally as a private benchmark first, variations after (Rules.md rule-everything-1to1-benchmark-20261012)",
+ "resume_note": "12 October 2026: resumeFromRunId replays finished agents from cache (no tokens); an agent interrupted mid-run restarts its conversation from zero but continues from its files on disk (prompts say extend, never rewrite).",
+ "generalization_test": {
+  "date": "13 October 2026",
+  "order": "claude-opus-5-5 (20 s, 1080p25, audio) first, then flora-agents-on-canvas (51 s, sound focus), then memo; sequential, NO workflows (CLAUDE.md priority 0, 13 October 2026)",
+  "music": "Scripts/MusicRun.py --slug <slug> [--transcribe] [--stages own,sms,bus] [--critic]; stems by Demucs; transcription works (14 s), bass onset check fails (F 0.33 vs 0.55 required)",
+  "next": "base resynthesis score on claude-opus-5-5, then generalise stem-iter modules, then SFX (ReproduceSound --slug), backdrop shader, 2D text",
+  "claude-opus-5-5_music": {
+   "date": "13 October 2026",
+   "chain": "MusicRun.py --transcribe; --stages own; --base V_002 --stages sms,bus; --roles vocals; dev,gap,retag; phrase",
+   "scores_tfBands": {
+    "V_002 own": {
+     "drums": 68.8,
+     "bass": 61.1,
+     "other": 76.2,
+     "vocals": 7.1,
+     "mix": 74.1
+    },
+    "V_006 sms,bus,vocals role": {
+     "drums": 86.4,
+     "bass": 98.3,
+     "other": 94.6,
+     "vocals": 80.7,
+     "mix": 96.3
+    },
+    "V_009 dev,gap,retag": {
+     "drums": 94.6,
+     "bass": 98.9,
+     "other": 95.8,
+     "vocals": 80.6,
+     "mix": 96.8
+    }
+   },
+   "fixes": [
+    "6 sound-bank blocks assumed a fit window >= 0.5 s (tests/test_sound_bank_windows.py, red then green)",
+    "vocals as a tonal role (resynth TONAL, resynth-params roles.vocals, run_sms stems)"
+   ],
+   "open": "vocals 80.6 (chroma 0.77), other 95.8 (onsets 0.28), drums 94.6; OneKey stem-iter modules are OneKey-specific"
+  }
+ }
+}

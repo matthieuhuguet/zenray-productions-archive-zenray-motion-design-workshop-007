@@ -1,0 +1,229 @@
+{
+  "date": "12 October 2026, 12:11",
+  "slug": "onekey-pro-2",
+  "version": "V_017",
+  "parent": "V_016",
+  "reports": {
+    "full": {
+      "window": {
+        "start": 0.0,
+        "end": 68.0533
+      },
+      "events": 4,
+      "scores": {
+        "sound": 80.79,
+        "sfx": 52.82,
+        "timing": 100.0,
+        "mix": 99.83,
+        "music": 99.16
+      },
+      "pass": false,
+      "threshold": 99.0,
+      "mix": {
+        "parts": {
+          "loudness": 100.0,
+          "curve": 99.5,
+          "truePeak": 100.0
+        },
+        "refLufs": -9.02,
+        "oursLufs": -9.05,
+        "truePeakDbtp": -1.1,
+        "curve": {
+          "window": "short-term",
+          "correlation": 0.995,
+          "meanDiffLu": -0.2
+        }
+      },
+      "music": {
+        "score": 99.16,
+        "parts": {
+          "tempo": 100.0,
+          "sections": 99.97,
+          "energy": 96.72,
+          "key": 100.0
+        },
+        "tempoErrorPct": 0.002,
+        "boundaryErrorsS": [
+          0.013,
+          0.668,
+          0.013,
+          0.013,
+          0.013,
+          0.014,
+          0.014
+        ],
+        "energyCorrelation": 0.9672,
+        "keyRef": "C minor",
+        "keyGen": "C minor"
+      },
+      "perEvent": [
+        {
+          "id": "E001",
+          "kind": "impact",
+          "score": 6.42,
+          "ceiling": 95.2,
+          "atCeiling": false,
+          "E": 16.531,
+          "anchorRefS": 20.66,
+          "anchorOursS": 20.6644,
+          "anchorErrorMs": 4.42,
+          "timingOk": true,
+          "errors": {
+            "level": -0.8584,
+            "anchor": 0.4424,
+            "attack": 2.2144,
+            "duration": -6.1224,
+            "brightness": 14.6647,
+            "spectralShape": 3.8323,
+            "pitch": 0.4496
+          }
+        },
+        {
+          "id": "E005",
+          "kind": "whoosh",
+          "score": 55.15,
+          "ceiling": 98.13,
+          "atCeiling": false,
+          "E": 7.695,
+          "anchorRefS": 28.9121,
+          "anchorOursS": 28.9268,
+          "anchorErrorMs": 14.68,
+          "timingOk": true,
+          "errors": {
+            "level": 0.1073,
+            "anchor": 0.7321,
+            "attack": -1.7784,
+            "duration": -1.1503,
+            "brightness": 5.7014,
+            "spectralShape": 4.656,
+            "pitch": 0.0
+          }
+        },
+        {
+          "id": "E006",
+          "kind": "impact",
+          "score": 71.4,
+          "ceiling": 97.65,
+          "atCeiling": false,
+          "E": 5.79,
+          "anchorRefS": 29.0157,
+          "anchorOursS": 29.0157,
+          "anchorErrorMs": 0.04,
+          "timingOk": true,
+          "errors": {
+            "level": -0.5162,
+            "anchor": -0.0403,
+            "attack": 1.5445,
+            "duration": 3.154,
+            "brightness": 2.4657,
+            "spectralShape": 3.8528,
+            "pitch": -0.0
+          }
+        },
+        {
+          "id": "E007",
+          "kind": "ding",
+          "score": 83.77,
+          "ceiling": 99.94,
+          "atCeiling": false,
+          "E": 4.198,
+          "anchorRefS": 40.48,
+          "anchorOursS": 40.48,
+          "anchorErrorMs": 0.0,
+          "timingOk": true,
+          "errors": {
+            "level": 0.0927,
+            "anchor": 0.0,
+            "attack": 0.0631,
+            "duration": -0.2593,
+            "brightness": 3.1219,
+            "spectralShape": 2.786,
+            "pitch": -0.1966
+          }
+        }
+      ],
+      "noEventsNote": null
+    },
+    "S02": {
+      "window": {
+        "start": 4.933,
+        "end": 6.283
+      },
+      "events": 0,
+      "scores": {
+        "sound": 99.67,
+        "sfx": 100.0,
+        "timing": 100.0,
+        "mix": 99.03,
+        "music": 99.29
+      },
+      "pass": true,
+      "threshold": 99.0,
+      "mix": {
+        "parts": {
+          "loudness": 99.92,
+          "curve": 97.18,
+          "truePeak": 100.0
+        },
+        "refLufs": -9.42,
+        "oursLufs": -9.7,
+        "truePeakDbtp": -1.1,
+        "curve": {
+          "window": "momentary",
+          "correlation": 0.9718,
+          "meanDiffLu": -0.28
+        }
+      },
+      "music": {
+        "score": 99.29,
+        "parts": {
+          "tempo": 100.0,
+          "sections": 100.0,
+          "energy": 97.18,
+          "key": 100.0
+        },
+        "tempoErrorPct": 0.002,
+        "boundaryErrorsS": [
+          0.013,
+          0.668,
+          0.013,
+          0.013,
+          0.013,
+          0.014,
+          0.014
+        ],
+        "energyCorrelation": 0.9672,
+        "keyRef": "C minor",
+        "keyGen": "C minor",
+        "windowNote": "tempo and key are global; sections and energy measured inside the window"
+      },
+      "perEvent": [],
+      "noEventsNote": "no reference SFX event inside this window: SFX and timing scores are 100 by definition (nothing missing, nothing extra)"
+    }
+  },
+  "mix": {
+    "stemGainsDb": {
+      "drums": 4.879758800560472,
+      "bass": 5.18343647702298,
+      "other": -3.108197883641175
+    },
+    "duckDb": 0.0,
+    "integratedLufs": -9.05,
+    "truePeakDbtp": -1.1,
+    "referenceLufs": -9.02
+  },
+  "timing": {
+    "analyzeS": 4.1,
+    "segmentS": 23.6,
+    "fitS": 823.5,
+    "musicS": 1.0
+  },
+  "seconds": 856.8,
+  "overrides": {
+    "fit": {
+      "cmaBudget": 900,
+      "nelderMeadEval": 400
+    }
+  },
+  "rights": "outputs are our synthesis only; the reference contributed numbers (times, descriptors, loudness), never samples"
+}
